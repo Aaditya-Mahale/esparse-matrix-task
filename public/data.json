@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "customerId": "CI123",
+      "customerName": "Vishal Rajput",
+      "mobileNo": "8459694413",
+      "emailId": "vishal@gmail.com",
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "customerId": "CI123",
+      "customerName": "Vishal Rajput",
+      "mobileNo": "8459694413",
+      "emailId": "vishal@gmail.com",
+      "status": "Active"
+    },
+    {
+      "id": 3,
+      "customerId": "CI123",
+      "customerName": "Vishal Rajput",
+      "mobileNo": "8459694413",
+      "emailId": "vishal@gmail.com",
+      "status": "Active"
+    },
+    {
+      "id": 4,
+      "customerId": "CI123",
+      "customerName": "Vishal Rajput",
+      "mobileNo": "8459694413",
+      "emailId": "vishal@gmail.com",
+      "status": "Active"
+    },
+    {
+      "id": 5,
+      "customerId": "CI123",
+      "customerName": "Vishal Rajput",
+      "mobileNo": "8459694413",
+      "emailId": "vishal@gmail.com",
+      "status": "Active"
+    },
+    {
+      "id": 6,
+      "customerId": "CI123",
+      "customerName": "Vishal Rajput",
+      "mobileNo": "8459694413",
+      "emailId": "vishal@gmail.com",
+      "status": "Active"
+    },
+    {
+      "id": 7,
+      "customerId": "CI123",
+      "customerName": "Vishal Rajput",
+      "mobileNo": "8459694413",
+      "emailId": "vishal@gmail.com",
+      "status": "Active"
+    },
+    {
+      "id": 8,
+      "customerId": "CI123",
+      "customerName": "Vishal Rajput",
+      "mobileNo": "8459694413",
+      "emailId": "vishal@gmail.com",
+      "status": "Active"
+    },
+    {
+      "id": 9,
+      "customerId": "CI123",
+      "customerName": "Vishal Rajput",
+      "mobileNo": "8459694413",
+      "emailId": "vishal@gmail.com",
+      "status": "Active"
+    },
+    {
+      "id": 10,
+      "customerId": "CI123",
+      "customerName": "Vishal Rajput",
+      "mobileNo": "8459694413",
+      "emailId": "vishal@gmail.com",
+      "status": "Active"
+    }
+
+  ]

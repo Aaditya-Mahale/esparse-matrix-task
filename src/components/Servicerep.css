@@ -1,0 +1,127 @@
+.thismbuttons {
+
+    width: 159px;
+    height: 56px;
+    padding: 16px 48px;
+    border-radius: 4px;
+    gap: 10px;
+    background-color: #DB4444;
+    color: white;
+
+    /* Add any additional styles as needed */
+  }
+  
+  .servicerephead{
+    justify-content: space-between;
+    display: flex;
+    margin-right: 200px;
+  }
+
+  .imgservicesp{
+    margin-left: 50px;
+    margin-top: 25px;
+display: flex;
+flex-direction: row;
+  }
+
+  .imgservi{
+    background-color: #F5F5F5;
+    width: 270px;
+    height: 300px;
+margin-left: 25px;
+margin-bottom: 50px;
+  }
+
+  .img1servrep{
+    margin-top: 2px;
+  }
+  .imgservicesli{
+    margin-left: 150px;
+    margin-top: 25px;
+    display: flex;
+  }
+  .repservs{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 200px;
+    margin-left: 60px;
+  }
+
+  .thismbuttons1{
+    width: 159px;
+    height: 56px;
+    padding: 4px 24px;
+    border-radius: 4px;
+    gap: 10px;
+    background-color: #DB4444;
+    color: white;
+  }
+  .repaircssa {
+    margin-left: 60px;
+    font-family: 'Inter';
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    /* Add any other default styles here */
+}
+
+  @media (min-width: 321px) and (max-width: 480px){
+  .imgservicesp{
+    margin-left: 30px;
+    flex-direction: column;
+  }
+  .imgservicesli{
+    margin-left: 30px;
+    flex-direction: column;
+  }
+  .thismbuttons{
+    margin: 0px 95px;
+  }
+  .servicerephead{
+    margin-left: -50px;
+  }
+  .repaircssa{
+margin-left: 45px;
+font-size: 20px;
+  }
+  .thismbuttons1{
+    margin: 0px 24px;
+  }
+  .repservs{
+    margin-right: 0px;
+    margin-left: 15px;
+    font-size: 20px;
+  }
+
+
+
+}
+
+
+@media (min-width:850px) and (max-width:992px) {
+  .imgservicesp{
+    margin-left: 150px;
+    flex-wrap: wrap;
+  } 
+  .imgservicesli{
+    margin-left: 150px;
+    flex-wrap: wrap;
+
+  }
+  
+}
+
+@media (min-width:993px) {
+  .imgservicesp{
+    gap: 50px;
+  }
+  .repaircssa{
+    margin-left: 75px;
+  }
+  .imgservicesli{
+    margin-left: 50px;
+    gap: 60px;
+  }
+}

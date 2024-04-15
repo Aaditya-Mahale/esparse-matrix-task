@@ -1,0 +1,10 @@
+[
+    {
+      "id": 1,
+      "customerId": "CI123",
+      "customerName": "Vishal Rajput",
+      "mobileNo": "8459694413",
+      "emailId": "vishal@gmail.com",
+      "status": "Active"
+    }
+  ]

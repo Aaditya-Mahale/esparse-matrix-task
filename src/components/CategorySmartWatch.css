@@ -1,0 +1,73 @@
+.vector-icon5,
+.vector-icon6,
+.vector-icon7,
+.vector-icon8 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon6,
+.vector-icon7,
+.vector-icon8 {
+  height: 50%;
+  width: 50%;
+  top: 25%;
+  right: 25%;
+  bottom: 25%;
+  left: 25%;
+}
+.vector-icon7,
+.vector-icon8 {
+  height: 12.5%;
+  width: 25%;
+  top: 75%;
+  right: 37.5%;
+  bottom: 12.5%;
+  left: 37.5%;
+}
+.vector-icon8 {
+  top: 12.5%;
+  bottom: 75%;
+}
+.frame-child,
+.frame-inner,
+.frame-item {
+  width: 2px;
+  position: relative;
+  border-right: 2px solid var(--text2);
+  box-sizing: border-box;
+  height: 15px;
+}
+.frame-inner,
+.frame-item {
+  height: 10px;
+}
+.frame-inner {
+  height: 12px;
+}
+.line-parent {
+  position: absolute;
+  height: 23.21%;
+  width: 17.86%;
+  top: 39.29%;
+  right: 41.07%;
+  bottom: 37.5%;
+  left: 41.07%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.category-smartwatch {
+  width: 56px;
+  height: 56px;
+  overflow: hidden;
+}

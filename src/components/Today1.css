@@ -1,0 +1,125 @@
+.instance-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--secondary-2);
+}
+.rectangle-wrapper {
+  width: 20px;
+  position: relative;
+  height: 40px;
+}
+.todays {
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.instance-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.flash-sales {
+  position: relative;
+  font-size: var(--heading-36px-semibold-size);
+  letter-spacing: 0.04em;
+  line-height: 48px;
+  font-weight: 600;
+  font-family: var(--heading-24px-semibold);
+  color: var(--text2);
+}
+.frame-parent22 {
+  height: 103px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--title-16px-regular-size);
+  color: var(--secondary-2);
+  font-family: var(--title-16px-regular);
+}
+
+@media (min-width: 320px) and (max-width:767px){
+
+  .frame-parent22 {
+    margin-left: -25vw;
+    height: 103px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+    text-align: left;
+    font-size: var(--title-16px-regular-size);
+    color: var(--secondary-2);
+    font-family: var(--title-16px-regular);
+    left: 25px;
+  }
+  .instance-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+    
+  }
+
+  .flash-sales {
+    margin-right: 86px;
+    position: relative;
+    font-size: var(--heading-36px-semibold-size);
+    letter-spacing: 0.04em;
+    line-height: 48px;
+    font-weight: 600;
+    font-family: var(--heading-24px-semibold);
+    color: var(--text2);
+  }
+}
+
+@media(min-width:850px) and (max-width:992px) {
+  .frame-parent22 {
+    
+    height: 103px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+    text-align: left;
+    font-size: var(--title-16px-regular-size);
+    color: var(--secondary-2);
+    font-family: var(--title-16px-regular);
+    margin-left: -66px;
+    margin-top: 15px;
+  }
+  .flash-sales {
+    left: 75px;
+    margin-right: 86px;
+    position: relative;
+    font-size: var(--heading-36px-semibold-size);
+    letter-spacing: 0.04em;
+    line-height: 48px;
+    font-weight: 600;
+    font-family: var(--heading-24px-semibold);
+    color: var(--text2);
+  }
+  .instance-parent {
+    margin-left: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+    
+  }
+  
+}

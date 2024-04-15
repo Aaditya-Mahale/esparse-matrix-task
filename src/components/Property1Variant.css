@@ -1,0 +1,111 @@
+.rectangle-div {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 0 0 var(--br-9xs) var(--br-9xs);
+  background-color: var(--text2);
+  height: 41px;
+}
+.add-to-cart1 {
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  top: calc(50% + 92px);
+  left: calc(50% - 48px);
+  line-height: 24px;
+  font-weight: 500;
+}
+.fill-heart-icon11 {
+  width: 34px;
+  position: relative;
+  height: 34px;
+}
+.fill-heart-parent9 {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.sam-moghadam-khamseh-kvmdstrgo-icon {
+  position: absolute;
+  top: 0;
+  left: 41px;
+  width: 107px;
+  height: 180px;
+  object-fit: cover;
+}
+.sam-moghadam-khamseh-kvmdstrgo-wrapper {
+  position: absolute;
+  top: calc(50% - 90px);
+  left: calc(50% - 95px);
+  width: 190px;
+  height: 165px;
+  overflow: hidden;
+}
+.discount-percent-parent {
+  width: 270px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--secondary);
+  height: 250px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div23,
+.s-series-comfort-chair {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.div23 {
+  text-decoration: line-through;
+  color: var(--text2);
+  opacity: 0.5;
+}
+.parent2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  color: var(--secondary-2);
+}
+.div24 {
+  width: 32px;
+  position: relative;
+  line-height: 21px;
+  font-weight: 600;
+  display: inline-block;
+  height: 20px;
+  flex-shrink: 0;
+  opacity: 0.5;
+}
+.four-half-star-parent1,
+.property-1variant4,
+.s-series-comfort-chair-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.four-half-star-parent1 {
+  flex-direction: row;
+  font-size: var(--title-14px-regular-size);
+}
+.property-1variant4,
+.s-series-comfort-chair-parent {
+  flex-direction: column;
+}
+.property-1variant4 {
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--title-16px-regular-size);
+  color: var(--text2);
+  font-family: var(--title-16px-regular);
+}

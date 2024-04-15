@@ -1,0 +1,27 @@
+.md {
+  position: absolute;
+  top: 13px;
+  left: 16px;
+  line-height: 24px;
+  opacity: 0.5;
+}
+.placebox-info {
+  width: 330px;
+  height: 50px;
+  text-align: left;
+  font-size: var(--title-16px-regular-size);
+  color: var(--text2);
+  font-family: var(--title-16px-regular);
+}
+@media (min-width:850px) and (max-width:992px) {
+  
+
+.placebox-info {
+  width: 50px;
+  height: 50px;
+  text-align: left;
+  font-size: var(--title-16px-regular-size);
+  color: var(--text2);
+  font-family: var(--title-16px-regular);
+}
+}

@@ -1,0 +1,45 @@
+.ak-900-wired-keyboard,
+.div37 {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.div37 {
+  text-decoration: line-through;
+  color: var(--text2);
+  opacity: 0.5;
+}
+.parent9 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  color: var(--secondary-2);
+}
+.div38 {
+  width: 32px;
+  position: relative;
+  line-height: 21px;
+  font-weight: 600;
+  display: inline-block;
+  height: 20px;
+  flex-shrink: 0;
+  opacity: 0.5;
+}
+.ak-900-wired-keyboard-parent,
+.four-star-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--title-14px-regular-size);
+}
+.ak-900-wired-keyboard-parent {
+  flex-direction: column;
+  text-align: left;
+  font-size: var(--title-16px-regular-size);
+  color: var(--text2);
+  font-family: var(--title-16px-regular);
+}

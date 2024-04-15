@@ -1,0 +1,46 @@
+.fill-heart-icon {
+  width: 34px;
+  position: relative;
+  height: 34px;
+}
+.fill-heart-parent {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.cart-child {
+  position: absolute;
+  top: calc(50% - 90px);
+  left: calc(50% - 95px);
+  width: 190px;
+  height: 180px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.cart1 {
+  width: 270px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--secondary);
+  height: 250px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.productman-jacket-color-choos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+
+@media (min-width:993px) {
+  .cart-child{
+    height: 165px;
+  }
+}

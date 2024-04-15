@@ -1,0 +1,25 @@
+.place-to-info-box {
+  width: 470px;
+  border-radius: var(--br-9xs);
+  background-color: var(--secondary);
+  height: 50px;
+  overflow: hidden;
+}
+
+
+@media (min-width: 321px) and (max-width: 480px){
+
+
+.place-to-info-box{
+  width: 232px;
+}
+}
+
+@media (min-width:850px) and (max-width:992px) {
+  
+
+.contact3 .place-to-info-box{
+  width: 2px;
+
+}
+}

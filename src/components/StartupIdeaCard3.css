@@ -1,0 +1,133 @@
+.home5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 24px;
+  cursor: pointer;
+}
+.header22 {
+  width: 48px;
+  position: relative;
+  height: 24px;
+}
+.about7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 24px;
+}
+.header-parent4,
+.logo-parent5 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+}
+.logo-parent5 {
+  gap: var(--gap-213xl);
+}
+.wishlist-icon6 {
+  width: 32px;
+  position: relative;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.cart1-icon3 {
+  position: absolute;
+  height: 75%;
+  width: 75%;
+  top: 25%;
+  right: 21.88%;
+  bottom: 0;
+  left: 3.13%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.group-child1 {
+  position: absolute;
+  height: 94.12%;
+  width: 100%;
+  top: 5.88%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--secondary-2);
+}
+.div46 {
+  position: absolute;
+  height: 100%;
+  width: 43.75%;
+  top: 0;
+  left: 31.25%;
+  line-height: 18px;
+  display: inline-block;
+}
+.ellipse-parent3 {
+  position: absolute;
+  height: 53.13%;
+  width: 50%;
+  top: 3.13%;
+  right: 3.13%;
+  bottom: 43.75%;
+  left: 46.88%;
+}
+.cart1-with-buy6,
+.user-icon6 {
+  width: 32px;
+  position: relative;
+  height: 32px;
+}
+.cart1-with-buy6 {
+  display: none;
+}
+.user-icon6 {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.wishlist-parent4 {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.header21,
+.search-component-set-parent4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  font-size: var(--title-12px-regular-size);
+  color: var(--text);
+}
+.header21 {
+  position: absolute;
+  top: 86px;
+  left: 115px;
+  gap: var(--gap-191xl);
+  text-align: center;
+  font-size: var(--title-16px-regular-size);
+  color: var(--text2);
+  font-family: var(--title-16px-regular);
+}
+
+@media (min-width: 321px) and (max-width: 767px) {
+.logo-parent5 {
+  gap: 5px;
+}
+
+.header-parent4,
+.logo-parent5 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 3vw;
+}
+}

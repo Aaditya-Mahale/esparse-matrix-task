@@ -1,0 +1,86 @@
+.edit-your-profile {
+  position: absolute;
+  top: 40px;
+  left: 80px;
+  font-size: var(--title-20px-medium-size);
+  line-height: 28px;
+  font-weight: 500;
+  color: var(--secondary-2);
+}
+.first-name {
+  position: relative;
+  line-height: 24px;
+}
+.first-name-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frame-parent47,
+.frame-parent48 {
+  left: 80px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-31xl);
+}
+.frame-parent47 {
+  position: absolute;
+  top: 84px;
+  display: flex;
+  justify-content: flex-start;
+}
+.frame-parent48 {
+  top: 190px;
+}
+.cancel-parent,
+.frame-parent48,
+.frame-parent49 {
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+}
+.frame-parent49 {
+  top: 296px;
+  left: 80px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-base);
+}
+.cancel-parent {
+  top: calc(50% + 219px);
+  right: 80px;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-13xl);
+}
+.edit-your-profile-parent {
+  position: absolute;
+  top: 323px;
+  left: 435px;
+  border-radius: var(--br-9xs);
+  background-color: var(--primary);
+  box-shadow: var(--categogy-5);
+  width: 870px;
+  height: 630px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--title-16px-regular-size);
+  color: var(--text2);
+  font-family: var(--title-16px-regular);
+}
+/* EditProfileFormContainer.css */
+
+.placebox-info-input {
+  background-color:  #F5F5F5;
+  border: none;
+  
+}
+
+@media (min-width: 321px) and (max-width: 480px){
+.roadmap{
+  margin-left: -50px;
+}
+}
+

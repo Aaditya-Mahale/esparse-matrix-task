@@ -1,0 +1,590 @@
+.blockdivs1{
+    margin-top: 375px;
+    margin-bottom: 15px;
+    display: flex;
+    margin-left: 150px;
+    width: 1202px;
+  height: 271px;
+  top: 757px;
+  left: 114px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.rowmiddleerev{
+display: flex;
+}
+.Servenq{
+  margin-top: 360px;
+}
+.rectanglepicdiv{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.desrectittle1{
+    margin-left: 170px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.desrectittle11{
+    margin-bottom: 25px;
+    margin-left: 170px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.ratingser{
+    margin-left: 170px;
+}
+.descretbuttonse{
+    margin-top: 25px;
+    margin-left: 170px;
+    gap: 5px;
+}
+.descretbuttons {
+    background: #FFAD33;
+margin-bottom: 10px;
+    border: 1px solid #FFAD33;
+    width: 204px;
+    height: 45px;
+    top: 915px;
+    left: 489px;
+    border-radius: 5px;
+    
+     /* You can change the color by modifying the hex code or using color names */
+    
+    color: #fff; /* Text color */
+    margin-right: 10px; /* Adjust spacing between buttons if needed */
+    cursor: pointer; /* Show pointer cursor on hover */
+    border: none;
+  }
+  
+  .descretbuttons1 {
+    border: 1px solid #3354FF;
+    width: 204px;
+    height: 45px;
+    top: 915px;
+    left: 489px;
+    border-radius: 5px;
+    background: #3360FF;
+
+    color: #fff; /* Text color */
+    margin-right: 10px; /* Adjust spacing between buttons if needed */
+    cursor: pointer; /* Show pointer cursor on hover */
+  }
+  /* styles.css */
+
+.desrectittle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    /* Add additional styles if needed */
+  }
+
+  .rectservenq{
+    margin-left: 110px;
+    width: 1320px;
+height: 1480px;
+margin-bottom: 25px;
+border: 5px solid #00000080;
+border-radius: 5px;
+border: 1px;
+
+  }
+  .imgenq{
+
+gap: 25px;
+  }
+  .imgenq img{
+    margin-left: 25px;
+  }
+
+  .goodenq{
+    width: 300px;
+    
+    margin-top: -60px;
+    display: flex;
+    flex-direction: column;
+        justify-content: center;
+    align-content: center;
+    margin-left: 115px;
+    accent-color: black;
+  }
+  .goodenq1{
+    width: 300px;
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-content: center;
+    margin-left: 90px;
+    accent-color: black;
+    
+  }
+  .goodenq2{
+    width: 350px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-content: center;
+    margin-left: 180px;
+    accent-color: black;
+    
+  }
+ /* styles.css */
+
+.bullet-points-container {
+  display: flex;
+  
+}
+.bullet-points-container ul {
+  display: flex;
+  gap: 245px;
+}
+
+
+  .reviewserv{
+    margin-left: 10px;
+  }
+  .blockdivs1 {
+    
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .rectanglepicdiv {
+    
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .desrect {
+   
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .desrectittle {
+   
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .ratingser {
+  
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .descretbuttonse {
+   
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  
+  .rectservenq {
+    border:  1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  .imgenq {
+   
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .goodenq {
+    
+    border-bottom: none;
+    padding: 10px;
+  }
+  
+  .quickinfoss {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    margin-left: 10px;
+  }
+  .ratingsqr1 {
+    width: 75px;
+    height: 70px;
+    top: 1430px;
+    left: 154px;
+    position: absolute;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background: rgba(255, 173, 51, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .ratingtex1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+  }
+  
+  .reviewserv {
+   
+    border-bottom: none;
+    padding: 10px;
+  }
+  
+  .conditionsl {
+   
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .pckmb{
+    
+      margin-left: -475px;
+      font-family: 'Poppins';
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 21px;
+      letter-spacing: 0em;
+      text-align: left;
+    
+  }
+  .writerev{
+    margin-left: 800px;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+.firsqrtb{
+  display: flex;
+}
+  .ratesqrt1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    /* Add any additional styling as needed */
+  }
+  .ratesqrt2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    /* Add any additional styling as needed */
+  }
+  .ratesqrt1_1 {
+    margin-top: 40px;
+    margin-left: 200px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    /* Add any additional styling as needed */
+  }
+  .ratestarpicn{
+    margin-top: 10px;
+  }
+  .ratestarpicn1{
+    margin-top: 50px;
+  }
+  .ratesqrt3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    /* Add any additional styling as needed */
+  }
+  .ratingsqr2 {
+    width: 75px;
+    height: 70px;
+    top: 1675px;
+    left: 154px;
+    position: absolute;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background: rgba(255, 173, 51, 1);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .ratingtex2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+  }
+  .aboutrr{
+    border: 1px solid #ccc;
+  }
+  .ratesqrt2_1 {
+    margin-top: 240px !important;
+    margin-left: 190px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    /* Add any additional styling as needed */
+  }
+  .comen1 {
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: justified;
+    
+    color: black; /* Add text color to ensure visibility on the dark background */
+    /* Add any additional styling as needed */
+  }
+  .sharehelplogor{
+    margin-left: 25px;
+    gap: 280px;
+    display: flex;
+    align-items: center;
+  }
+  .sharehelplogor div {
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    align-items: center;
+    /* Add any additional styling as needed */
+  }
+  .aboutrr1{
+    
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  }
+  .aboutrr2{
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: justified;
+  }
+  
+  @media (min-width: 321px) and (max-width: 480px){
+    
+    .writerev{
+      margin-left: 0px;
+    }
+    .desrectittle{
+      margin-left: 0px;
+      line-height: 25px;
+    }
+    .desrectittle1{
+      margin-left: 10px;
+    }
+    .descretbuttonse{
+      margin-left: 40px;
+      border: none;
+    }
+    .Servenq  .blockdivs{
+      margin-top: 25px;
+    }
+    .Servenq{
+      margin-top: -300px;
+    }
+    .rectservenq{
+      margin-top: 20px;
+      height: 3540px;
+      width: 90vw;
+      margin-left: 20px;
+    }
+    .pckmb{
+      margin-left: 25px;
+    }
+    .blockdivs1{
+      height: 575px;
+      flex-direction: column;
+      width: 90vw;
+      margin-left: 20px;
+    }
+    .desrectittle11{
+      margin-left: 13px;
+    }
+    .rowmiddleerev{
+      display: flex;
+      flex-direction: column;
+      }
+      .goodenq{
+        margin-top: 25px;
+        border: none;
+        margin-left: 5vw;
+      }
+      .goodenq1{
+        border: none;
+        margin-left: 5vw;
+      }
+      .goodenq2{
+        margin-left: 5vw;
+        border: none;
+      }
+      .bullet-points-container ul{
+        flex-direction: column;
+        gap: 15px;
+      }
+      .sharehelplogor{
+        flex-direction: column;
+        align-items: normal;
+        gap: 10px;
+        margin-top: 15px;
+      }
+      .firsqrtb{
+        align-items: center;
+      }
+      .ratingsqr1{
+        position:unset;
+      margin-top: 0px;
+        left: 15vw;
+      }
+      .ratingtex1{
+        position: unset;
+        margin-top: 35px;
+        margin-left: 35px;
+      }
+      .ratingsqr2{
+       display: none;
+      }
+      .ratingtex2{
+        display: none;
+      }
+      .ratesqrt1_1{
+       margin-top: 0vw;
+        margin-left: 100px;
+      }
+      .ratesqrt2_1{
+        font-size: 25px;
+        margin-left: 25vw;
+      }
+      .ratestarpicn1{
+        margin-bottom: 10px;
+      }
+      .aboutrr{
+        border: none;
+      }
+  }
+
+  @media (min-width:850px) and (max-width:992px) {
+    .descretbuttonse{
+      margin-left: 25px;
+      border: none;
+      margin-top: -10px;
+    }
+    .desrectittle{
+      margin-top: -1px;
+      line-height: 25px;
+    }
+    .ratingser{
+      margin-left: 160px;
+    }
+    .blockdivs1{
+      margin-left: 0px;
+      width: 100vw;
+    }
+    .rectservenq{
+      width: 100vw;
+      margin-left: 0px;
+    }
+    .imgenq{
+      margin-left: 150px;
+    }
+    .writerev{
+      margin-left: 625px;
+    }
+    .goodenq1{
+      margin-left: 45px;
+    }
+    .goodenq2{
+      margin-left: 45px;
+    }
+    .goodenq{
+      margin-left: 45px;
+    }
+    .sharehelplogor{
+      gap: 50px;
+      margin-top: 25px;
+    }
+    .ratingsqr1{
+      top: 1690px;
+      left: 100px;
+    }
+    .ratingsqr2{
+      top: 1890px;
+      left: 100px;
+    }
+    
+  }
+  
+  
+  
+  
+  @media (min-width:993px) {
+    .ratingser{
+      margin-left: 170px;
+      border: none;
+    }
+    .desrectittle{
+      border: none;
+    }
+    .descretbuttonse{
+      border: none;
+    }
+  }
+
+
+
+  
+  

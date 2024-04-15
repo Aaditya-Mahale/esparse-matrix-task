@@ -1,0 +1,111 @@
+.fill-heart-icon4 {
+  width: 34px;
+  position: relative;
+  height: 34px;
+}
+.add-to-cart {
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  top: calc(50% + 92px);
+  left: calc(50% - 48px);
+  line-height: 24px;
+  font-weight: 500;
+}
+.fill-heart-parent2 {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.ideapad-gaming-3i-01-500x500-1-icon {
+  position: absolute;
+  top: 0;
+  left: 9px;
+  width: 172px;
+  height: 180px;
+  object-fit: cover;
+}
+.ideapad-gaming-3i-01-500x500-1-wrapper {
+  position: absolute;
+  top: calc(50% - 90px);
+  left: calc(50% - 95px);
+  width: 190px;
+  height: 180px;
+  overflow: hidden;
+}
+.cart5 {
+  width: 270px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--secondary);
+  height: 250px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.asus-fhd-gaming {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.frame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div8 {
+  width: 40px;
+  position: relative;
+  line-height: 21px;
+  font-weight: 600;
+  display: inline-block;
+  height: 20px;
+  flex-shrink: 0;
+  opacity: 0.5;
+}
+.five-star-group,
+.frame-parent6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.five-star-group {
+  align-items: flex-start;
+  font-size: var(--title-14px-regular-size);
+  color: var(--text2);
+}
+.frame-parent6 {
+  align-items: center;
+  color: var(--secondary-2);
+}
+.asus-fhd-gaming-laptop-parent,
+.productlaptop-no-discount {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.productlaptop-no-discount {
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--title-16px-regular-size);
+  color: var(--text2);
+  font-family: var(--title-16px-regular);
+}
+
+@media (min-width:993px) {
+  .ideapad-gaming-3i-01-500x500-1-wrapper{
+    height: 220px;
+    top: 10px;
+  }
+  .ideapad-gaming-3i-01-500x500-1-icon{
+
+  }
+}

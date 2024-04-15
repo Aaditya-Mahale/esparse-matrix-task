@@ -1,0 +1,114 @@
+.ordpro{
+    box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
+width: 80vw;
+height:134px ;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 25px;
+margin-top: 25px;
+display: flex;
+padding-top: 25px;
+}
+
+.textord{
+    margin-top: 25px;
+    margin-left: 25px;
+    width: 50vw;
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 26px;
+text-align: left;
+
+}
+.text1ord{
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin-left: 25px;
+}
+.imgord{
+    margin-left: 25px;
+    width: 178px;
+}
+.img1ord{
+    margin-top: 25px;
+    
+}
+.cancelordercheckbox{
+    padding-top: 25px;
+    margin-left: 25px;
+}
+.buyagainbuttoncancel {
+margin-left: 49vw;
+margin-right: 49vw;
+
+}
+.buyagainbutton1 {
+    width: 200px;
+    height: 56px;
+    top: 310px; /* Not applicable here, remove or adjust for specific placement */
+    color: white;
+    background: rgba(219, 68, 68, 1);
+    border: none;
+     /* Not applicable to buttons, remove */
+    border-radius: 4px 0px 0px 0px;
+    padding: auto;
+    
+  }
+
+@media (max-width:786px) {
+    .ordpro{
+        box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
+    width: 100vw;
+    height: auto ;
+    margin-right: unset;
+    margin-left: unset;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    display: flex;
+    padding: 5px;
+    } 
+    .textord{
+        margin-top: 0px;
+        width: 35vw;
+    }
+    .imgord{
+        margin-top: auto;
+        margin-right: 5px;
+        margin-left: 25px;
+        margin-bottom: auto;
+        width: 20vw;
+        
+    }
+    .imgord1{
+        margin-right: unset;
+        margin-left: unset;
+        width: 5vw;
+        
+    }
+    #img1{
+        width: auto;
+        margin-left: -25px;
+    }
+    #img6{
+        width: 25px;
+        
+    }
+    .textconord{
+        width: 65vw;
+    }
+    .cancelordercheckbox{
+        padding-top: 75px;
+        margin-left: 25px;
+        padding-bottom: 75px;
+    }
+    .buyagainbuttoncancel {
+        margin-left: 30vw;
+     
+        
+        }
+
+}

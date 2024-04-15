@@ -1,0 +1,81 @@
+.AdminLoginPage {
+    background: linear-gradient(270deg, #FFAD33 0%, #080357 100%);
+    width: auto;
+    height: auto;
+    margin-top: -150px;
+    padding-top: 50px;
+}
+
+
+.AdminLogin{
+    text-align: center;
+   
+    border-radius: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 19.7vh;
+    display: flex;
+    width: auto;
+    height: 94vh;
+    justify-content: center; /* Horizontally center */
+  align-items: center; 
+}
+.admin-login-container{
+background-color: white;
+width: 40vw;
+height: 60vh;
+border-radius: 2%;
+gap: 0px;
+opacity: 0px;
+color: rgba(21, 24, 109, 0.6);
+text-align: left;
+align-items: center;
+display: flex;
+flex-direction: column;
+padding-top: 25px;
+}
+#loginimg0{
+    width: 30vw;
+height: 60vh;
+border-radius: 2%;
+}
+.welcomeadmintxt{
+    color: rgba(11, 47, 138, 1);
+    font-family: Inter;
+font-size: 48px;
+font-weight: 800;
+line-height: 58.09px;
+text-align: center;
+margin-bottom: 25px;
+
+
+
+}
+.adminlogininput{
+    border: none;
+    border-bottom: 2px solid rgba(21, 24, 109, 0.6);
+    width: 489px;
+height: auto;
+top: 208px;
+left: 73px;
+gap: 0px;
+border: 2px 0px 0px 0px;
+opacity: 0px;
+outline: none; 
+}
+.labeltextadminlogin{
+    background: rgba(21, 24, 109, 0.6);
+
+}
+.adminloginbutton{
+    box-shadow: 0px 8px 24px -2px rgba(11, 47, 138, 0.6);
+    background: rgba(11, 47, 138, 1);
+    width: 220px;
+    height: 45px;
+    gap: 0px;
+    border-radius: 16px;
+    opacity: 0px;
+    margin-top: 15px;
+    color: white;
+    margin-left: 25%;
+}

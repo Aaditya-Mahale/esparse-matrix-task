@@ -1,0 +1,88 @@
+.account {
+  position: relative;
+  line-height: 21px;
+  opacity: 0.5;
+}
+.roadmap-child {
+  width: 6px;
+  position: relative;
+  height: 11.7px;
+  object-fit: contain;
+}
+.nothing {
+  position: relative;
+  line-height: 21px;
+}
+.roadmap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--title-14px-regular-size);
+  color: var(--text2);
+  font-family: var(--title-16px-regular);
+}
+
+@media (max-width: 320px){
+  .roadmap {
+    margin-top: -200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+    text-align: left;
+    font-size: var(--title-14px-regular-size);
+    color: var(--text2);
+    font-family: var(--title-16px-regular);
+  }
+}
+
+@media (min-width: 321px) and (max-width: 480px){
+  .roadmap {
+    margin-top: -200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+    text-align: left;
+    font-size: var(--title-14px-regular-size);
+    color: var(--text2);
+    font-family: var(--title-16px-regular);
+  }
+
+}
+
+@media (min-width: 480px) and (max-width: 768px){
+  .roadmap {
+    margin-top: -200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+    text-align: left;
+    font-size: var(--title-14px-regular-size);
+    color: var(--text2);
+    font-family: var(--title-16px-regular);
+  }
+}
+
+@media (min-width:850px) and (max-width:992px) {
+  .roadmap {
+    margin-top: -200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+    text-align: left;
+    font-size: var(--title-14px-regular-size);
+    color: var(--text2);
+    font-family: var(--title-16px-regular);
+  }
+}
+

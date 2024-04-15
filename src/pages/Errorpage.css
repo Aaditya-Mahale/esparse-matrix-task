@@ -1,0 +1,16 @@
+@media (min-width: 321px) and (max-width: 480px){
+    .errorpage .footer{
+        margin-top: -200px;
+    }
+
+}
+
+@media (min-width:850px) and (max-width:992px) {
+    .errorpage .footer{
+        margin-top: 250px;
+        width: 100vw;
+    }
+    .error{
+        margin-top: 2px;
+    }
+}

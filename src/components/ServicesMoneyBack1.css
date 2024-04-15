@@ -1,0 +1,25 @@
+.money-back-guarantee {
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+}
+.we-reurn-money {
+  position: relative;
+  font-size: var(--title-14px-regular-size);
+  line-height: 21px;
+}
+.money-back-guarantee-parent,
+.services-money-back {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.services-money-back {
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--title-20px-medium-size);
+  color: var(--text2);
+  font-family: var(--title-16px-regular);
+}

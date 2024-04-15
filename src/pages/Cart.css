@@ -1,0 +1,96 @@
+@media (min-width: 321px) and (max-width: 767px) {
+    .cartpage{
+        position: absolute;
+        height: 0400px;
+        padding: 10px; /* Add padding to the container for better spacing on small screens */
+      }
+   .cartpage   .footer {
+    
+  
+    bottom: 0;
+    width: 100vw;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 115px;
+    height: 1208px;
+  
+  }
+
+ 
+}
+
+@media (min-width: 321px) and (max-width: 480px){
+  .carthead{
+    margin-left: 20px ;
+    width: 90vw;
+  }
+  .product1{
+    margin-left: 20px;
+    width: 90vw;
+  }
+  .cartpage{
+    position: absolute;
+    height: 0400px;
+    padding: 10px; 
+    width: 100vw;/* Add padding to the container for better spacing on small screens */
+  }
+  .button{
+    width: 150px;
+  }
+  .textbox{
+    width: 40vw;
+  }
+}
+
+@media (min-width:850px) and (max-width:992px) {
+ .carthead{
+  
+  margin-left: 125px;
+  gap: 150px;
+  width: auto;
+ }
+ .product1{
+  margin-left: 125px;
+  width: 90vw;
+}
+.buttondiv{
+  gap: 200px;
+}
+.textbox{
+  margin-left: 125px;
+}
+.cartpage   .footer {
+    
+  
+  bottom: 0;
+  width: 100vw;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 15px;
+  height: 400px;
+
+}
+.textbox{
+  margin-left: 20px;
+  height: 55px;
+  width: 190px;
+}
+.cartpage{
+  overflow-y: hidden;
+  
+  touch-action: manipulation;
+  overflow-x: hidden;
+
+}
+
+}
+
+@media (min-width:993px) {
+  .cartpage{
+  margin-top: -150px;
+}
+}

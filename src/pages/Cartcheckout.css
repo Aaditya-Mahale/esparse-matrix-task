@@ -1,0 +1,23 @@
+
+
+@media (min-width: 480px) and (max-width: 768px){
+.cartcheckpagec{
+    touch-action: manipulation;
+  overflow-x: hidden;
+}
+
+.cartcheckout .footer {
+  
+  
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 200px;
+  height: 1450px;
+
+}
+
+}

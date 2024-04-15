@@ -1,0 +1,263 @@
+/* Category.css */
+.Container {
+  /* margin-top: 1450px; */
+  display: flex;
+  justify-content: space-between;
+  width: Fixed (1,170px);
+  height: Hug (313px);
+  top: 1410px;
+  left: 153px;
+  gap: 60px;
+  padding-left: 75px;
+  padding-right: 75px;
+   /* Adjust as needed for spacing between categories */
+}
+
+.Category{
+  width: 170px;
+height: 180px;
+padding: 25px, 56px, 24px, 55px;
+border-radius: 4px;
+border: 1px;
+border: 1px solid rgba(0, 0, 0, 0.3);
+text-align: center;
+color: rgba(0, 0, 0, 1);
+
+}
+.Category:hover {
+  background-color:  rgba(219, 68, 68, 1); /* Your desired hover background color */;
+}
+
+#img{
+  margin-top: 50px;
+  margin-left: px;
+  align-items: center;
+  width: 56px;
+height: 56px;
+top: 25px;
+left: 57px;
+align-content: center;
+text-align: center;
+}
+
+/* Category.css */
+.Category.special-background {
+  background-color: rgba(219, 68, 68, 1); /* Your desired background color for the 4th logo */;
+}
+
+.Browse{
+ /* margin-top: 1250px; */
+font-family: Inter;
+font-size: 36px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0.04em;
+text-align: left;
+margin-bottom: 0px;
+
+}
+.cat{
+  margin-top: 1350px;
+}
+
+@media (min-width: 321px) and (max-width: 767px) {
+
+  .Container {
+    /* margin-top: 1450px; */
+    display: flex;
+    justify-content: space-between;
+    width: Fixed (1,170px);
+    height: Hug (313px);
+    top: 1410px;
+    left: 40px;
+    gap: 60px;
+    padding-left: 75px;
+    padding-right: 75px;
+    
+    flex-wrap: wrap;
+     /* Adjust as needed for spacing between categories */
+  }
+
+  .Category{
+    width: 100px;
+  height: 162px;
+  padding: 25px, 56px, 24px, 55px;
+  border-radius: 4px;
+  border: 1px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+  margin-left: -42px;
+  margin-right: -12px;
+  
+  }
+  .Category:hover {
+    background-color:  rgba(219, 68, 68, 1); /* Your desired hover background color */;
+  }
+}
+
+@media (max-width: 320px){
+  .Browse{
+    /* margin-top: 1250px; */
+   font-family: Inter;
+   font-size: 36px;
+   font-weight: 600;
+   line-height: 48px;
+   letter-spacing: 0.04em;
+   text-align: left;
+   margin-bottom: 0px;
+   margin-left: -50px;
+   }
+  .cat{
+    margin-top: 1070px;
+    margin-left: -50px;
+  }
+  .Container {
+    /* margin-top: 1450px; */
+    display: flex;
+    justify-content: space-between;
+    width: Fixed (1,170px);
+    height: Hug (313px);
+    top: 1410px;
+    left: 40px;
+    gap: 60px;
+    padding-left: 75px;
+    padding-right: 75px;
+    
+    flex-wrap: wrap;
+     /* Adjust as needed for spacing between categories */
+  }
+
+  .Category{
+    width: 135px;
+  height: 162px;
+  padding: 25px, 56px, 24px, 55px;
+  border-radius: 4px;
+  border: 1px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+  margin-left: -60px;
+  margin-right: -57px;
+  
+  }
+  .Category:hover {
+    background-color:  rgba(219, 68, 68, 1); /* Your desired hover background color */;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 480px){
+  .Browse{
+    /* margin-top: 1250px; */
+   font-family: Inter;
+   font-size: 36px;
+   font-weight: 600;
+   line-height: 48px;
+   letter-spacing: 0.04em;
+   text-align: left;
+   margin-bottom: 0px;
+   margin-left: -50px;
+   
+   }
+  .cat{
+    margin-left: -50px;
+    margin-top: 1080px;
+  }
+  .Container {
+    /* margin-top: 1450px; */
+    display: flex;
+    justify-content: space-between;
+    width: Fixed (1,170px);
+    height: Hug (313px);
+    top: 1410px;
+    left: 40px;
+    gap: 60px;
+    padding-left: 75px;
+    padding-right: 50px;
+    
+    flex-wrap: wrap;
+     /* Adjust as needed for spacing between categories */
+  }
+
+  .Category{
+    width: 142px;
+  height: 162px;
+  padding: 25px, 56px, 24px, 55px;
+  border-radius: 4px;
+  border: 1px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+  margin-left: -45px;
+  margin-right: -25px;
+  
+  }
+  .Category:hover {
+    background-color:  rgba(219, 68, 68, 1); /* Your desired hover background color */;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px){
+  .Browse{
+    /* margin-top: 1250px; */
+   font-family: Inter;
+   font-size: 36px;
+   font-weight: 600;
+   line-height: 48px;
+   letter-spacing: 0.04em;
+   text-align: left;
+   margin-bottom: 0px;
+   
+   }
+  .cat{
+    margin-top: 1350px;
+  }
+  .Container {
+    /* margin-top: 1450px; */
+    display: flex;
+    justify-content: space-between;
+    width: Fixed (1,170px);
+    height: Hug (313px);
+    top: 1410px;
+    left: 40px;
+    gap: 60px;
+    padding-left: 75px;
+    padding-right: 75px;
+    
+    flex-wrap: wrap;
+     /* Adjust as needed for spacing between categories */
+  }
+
+  .Category{
+    width: 100px;
+  height: 162px;
+  padding: 25px, 56px, 24px, 55px;
+  border-radius: 4px;
+  border: 1px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+  margin-left: -42px;
+  margin-right: -12px;
+  
+  }
+  .Category:hover {
+    background-color:  rgba(219, 68, 68, 1); /* Your desired hover background color */;
+  }
+}
+
+@media(min-width:850px) and (max-width:992px) {
+  .Container{
+    flex-wrap: wrap;
+  }
+  .cat{
+    left: 41px;
+  }
+  
+  
+}
+@media (min-width:993px) {
+  .h4{
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,18 @@
+.gaming {
+  position: absolute;
+  bottom: 24px;
+  left: calc(50% - 32px);
+  line-height: 24px;
+}
+.category-phonegaming-hovern {
+  width: 170px;
+  border-radius: var(--br-9xs);
+  border: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  height: 145px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--title-16px-regular-size);
+  color: var(--text2);
+  font-family: var(--title-16px-regular);
+}

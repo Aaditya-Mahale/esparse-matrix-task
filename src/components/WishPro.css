@@ -1,0 +1,146 @@
+.just-for-you-text {
+    margin-right: 25cm;
+    font-family: Poppins, sans-serif; /* Customize font family */
+    font-size: 20px; /* Adjust font size */
+    font-weight: 400; /* Set font weight */
+    line-height: 26px; /* Control line height */
+    letter-spacing: 0em; /* Match letter spacing */
+    text-align: center; /* Align text centrally */
+    color: black/* Customize text color */; /* Add color based on your preference */
+  }
+  
+  
+  .just-for-you-button {
+    /* ... base button styles (inherit styles or provide defaults) */
+    background-color: /* Customize background color */; /* Set your desired background color */
+    color: /* Customize text color */; /* Set your desired text color */
+    border: /* Customize border properties */; /* Apply or remove borders as needed */
+    border-radius: /* Customize border radius */; /* Set your desired rounded corners */
+    padding: /* Customize padding */; /* Adjust padding for spacing */
+    cursor: pointer; /* Ensure it indicates interactivity */
+    display: inline-block; /* Keep button on one line */
+    font-family: Poppins, sans-serif; /* Match text font family */
+    font-size: /* Customize font size */; /* Adjust button text size */
+    font-weight: /* Customize font weight */; /* Set button text weight */
+    text-align: center; /* Align text centrally */
+    /* ... hover styles (if needed) */
+  }
+  {/* Define the CSS class for the button text */}
+.button-text {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.seeall{
+  width: 223px;
+  margin-left: -82px;
+    height: 56px;
+    padding: 19px 51px 31px 72px;
+    border-radius: 4px;
+    border: 1px solid;
+    gap: 10px; /* Not applicable to buttons, remove */
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 0px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 10px;
+  cursor: pointer;
+  color: black;
+}
+.seeall-text{
+  width: 35px;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 15px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.wishlist-heading {
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 200px;
+}
+
+.seeall-btn {
+  width: 223px;
+  height: 56px;
+  padding: 10px 26px 5px 50px;
+  border-radius: 4px;
+  border: 1px solid black;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 10px;
+  cursor: pointer;
+  color: black;
+}
+.wishlist-content{
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 850px;
+  margin-bottom: 15px;
+}
+
+
+
+  
+
+  @media (min-width: 321px) and (max-width: 767px) {
+  .wishpro-row{
+    flex-direction: column;
+    margin-left: -40vw;
+  }
+   
+}
+@media (min-width: 321px) and (max-width: 480px){
+  .wishpro-row{
+    flex-direction: column;
+    margin-left: -130px;
+}
+.wishlist-content{
+  gap: 0px;
+  margin-left: -30px;
+}
+.just-for-you-wrapper{
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: -64px;
+}
+.just-for-you-text{
+  width: 200px;
+  margin-left: -35px;
+}
+.seeall-btn{
+  width: 190px;
+}
+}
+
+@media (min-width:850px) and (max-width:992px) {
+  .wishlist-content{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 450px;
+    margin-bottom: 15px;
+  }
+  .wishpro-row{
+    margin-left: -125px;
+    width: 600px;
+}
+
+}

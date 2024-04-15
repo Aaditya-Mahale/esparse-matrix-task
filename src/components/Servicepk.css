@@ -1,0 +1,121 @@
+.servicepkhead{
+    margin-top: 450px;
+}
+
+.blockdivs{
+    margin-bottom: 15px;
+    display: flex;
+    margin-left: 150px;
+    width: 1202px;
+  height: 271px;
+  top: 757px;
+  left: 114px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.rectanglepicdiv{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.desrectittle{
+    margin-left: 170px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.desrectittle1{
+    margin-bottom: 25px;
+    margin-left: 170px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.ratingser{
+    margin-left: 170px;
+}
+.descretbuttonse{
+    margin-top: 25px;
+    margin-left: 170px;
+    gap: 5px;
+}
+.descretbuttons {
+    background: #FFAD33;
+
+    border: 1px solid #FFAD33;
+    width: 204px;
+    height: 45px;
+    top: 915px;
+    left: 489px;
+    border-radius: 5px;
+     /* You can change the color by modifying the hex code or using color names */
+    
+    color: #fff; /* Text color */
+    margin-right: 10px; /* Adjust spacing between buttons if needed */
+    cursor: pointer; /* Show pointer cursor on hover */
+  }
+  
+  .descretbuttons1 {
+    border: 1px solid #3354FF;
+    width: 204px;
+    height: 45px;
+    top: 915px;
+    left: 489px;
+    border-radius: 5px;
+    background: #3360FF;
+
+    color: #fff; /* Text color */
+    margin-right: 10px; /* Adjust spacing between buttons if needed */
+    cursor: pointer; /* Show pointer cursor on hover */
+  }
+  /* styles.css */
+
+.desrectittle {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    /* Add additional styles if needed */
+  }
+
+  .pckmg{
+    margin-left: 75px;
+  font-family: 'Inter';
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  }
+
+  @media (min-width: 321px) and (max-width: 480px){
+    .pckmg{
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    .catsheee{
+        margin-left: -50px;
+    }
+    .blockdivs{
+        flex-direction: column;
+        width: 90vw;
+        margin-left: 15px;
+        height: 650px;
+    }
+    .rectanglepicdiv{
+        margin-left: 35px;
+        border: none;
+    }
+  }
+  
+  @media (min-width:850px) and (max-width:992px) {
+    .blockdivs{
+        margin-left: 10px;
+        width: 98vw;
+    }
+  }

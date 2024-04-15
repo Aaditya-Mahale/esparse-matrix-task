@@ -1,0 +1,42 @@
+.textpastmo{
+    margin-left: 10vw;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+
+}
+.textpastmo1{
+    margin-top: 25px;
+    margin-left: 10vw;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+
+}
+.MyOrder .footer{
+    margin-top: -3820px;
+}
+@media (max-width:768px) {
+    .textpastmo{
+        margin-left: unset;
+    }
+    .textpastmo1{
+        margin-left: 20px;
+        font-size: 15px;
+    }
+    .BuyAgain{
+        margin-bottom: 25px;
+    }
+    .MyOrder .footer{
+        margin-top: -2620px;
+    }
+}
+@media (min-width:850px) and (max-width:992px) {
+    .MyOrder .footer{
+        width: 100vw;
+    }
+}

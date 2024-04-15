@@ -1,0 +1,456 @@
+.our-story {
+  position: relative;
+  letter-spacing: 0.06em;
+  line-height: 64px;
+  font-weight: 600;
+}
+
+.exclusive-has-more,
+.launced-in-2015 {
+  width: 525px;
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+}
+
+.exclusive-has-more {
+  width: 505px;
+  white-space: pre-wrap;
+}
+
+.launced-in-2015-exclusive-is-parent,
+.our-story-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.launced-in-2015-exclusive-is-parent {
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--title-16px-regular-size);
+  font-family: var(--title-16px-regular);
+}
+
+.our-story-parent {
+  position: absolute;
+  top: 422px;
+  left: 135px;
+  gap: var(--gap-21xl);
+}
+
+.side-image-icon {
+  position: absolute;
+  top: 285px;
+  left: 735px;
+  border-radius: var(--br-9xs) 0 0 var(--br-9xs);
+  width: 705px;
+  height: 609px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.instance-container,
+.instance-wrapper {
+  width: 270px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  height: 230px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.instance-wrapper {
+  border: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+}
+
+.instance-container {
+  background-color: var(--secondary-2);
+  box-shadow: var(--categogy-20);
+}
+
+.frame-parent10 {
+  position: absolute;
+  top: 1034px;
+  left: 135px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+
+.image-51-icon {
+  position: absolute;
+  top: 33px;
+  left: 38px;
+  width: 294px;
+  height: 397px;
+  object-fit: cover;
+}
+
+.image-51-wrapper {
+  width: 370px;
+  position: relative;
+  border-radius: var(--br-9xs);
+  background-color: var(--secondary);
+  height: 430px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.emma-watson {
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+.managing-director {
+  position: relative;
+  font-size: var(--title-16px-regular-size);
+  line-height: 24px;
+  font-family: var(--title-16px-regular);
+}
+
+.emma-watson-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+
+.icon-twitter2 {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.frame-parent11,
+.frame-parent12,
+.frame-parent13,
+.icon-twitter-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+
+.frame-parent11,
+.frame-parent12,
+.frame-parent13 {
+  flex-direction: column;
+}
+
+.frame-parent11,
+.frame-parent12 {
+  gap: var(--gap-13xl);
+}
+
+.frame-parent11 {
+  position: absolute;
+  top: 1404px;
+  left: 135px;
+  flex-direction: row;
+  gap: var(--gap-11xl);
+  text-align: left;
+  font-size: var(--heading-32px-bold-size);
+}
+
+.frame-child1 {
+  width: 12px;
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--text2);
+  height: 12px;
+  opacity: 0.3;
+}
+
+.group-icon {
+  width: 16px;
+  position: relative;
+  height: 16px;
+}
+
+.ellipse-container {
+  position: absolute;
+  top: 2008px;
+  left: 664px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+
+.about3 {
+  width: 100%;
+  position: relative;
+  background-color: var(--primary);
+  height: 2905px;
+  overflow: hidden;
+  text-align: justify;
+  font-size: var(--heading-54px-semibold-size);
+  color: var(--text2);
+  font-family: var(--heading-24px-semibold);
+}
+
+@media (min-width: 320px) and (max-width:767px) {
+  /* About.css */
+
+
+  .about3 {
+    height: 6620px;
+    padding: 10px;
+    /* Add padding to the container for better spacing on small screens */
+  }
+
+  .ellipse-container {
+    display: none;
+  }
+
+  .side-image-icon {
+    position: absolute;
+    top: 285px;
+    left: 0vw;
+    right: 0vw;
+    border-radius: var(--br-9xs) 0 0 var(--br-9xs);
+    width: 100%;
+    height: 609px;
+    overflow: hidden;
+    object-fit: contain;
+  }
+
+  .our-story-parent {
+    position: absolute;
+    top: 920px;
+    left: 5vw;
+    right: 5vw;
+    gap: var(--gap-21xl);
+    width: 100vw;
+  }
+
+  .exclusive-has-more,
+  .launced-in-2015 {
+    width: 100vw;
+    position: relative;
+    line-height: 26px;
+    display: inline-block;
+  }
+
+  .frame-parent11 {
+    position: absolute;
+    top: 2480px;
+    left: 5vw;
+    flex-direction: column;
+    gap: var(--gap-11xl);
+    text-align: left;
+    font-size: var(--heading-32px-bold-size);
+    width: 100vw;
+  }
+
+  .frame-parent10 {
+    position: absolute;
+    top: 1390px;
+    left: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-11xl);
+  }
+
+  .about3 .full-services {
+
+    position: relative;
+    top: 5430px;
+    margin-left: -180px;
+    margin-top: 2335px;
+    /* Add any other styles for the FullServices component here */
+  }
+
+  .about3 .footer {
+    bottom: 0;
+    width: 100vw;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 3000px;
+    height: 1450px;
+    margin-left: -10px;
+
+
+  }
+
+  .about3 .exclusive {
+    left: -115px;
+  }
+
+  .header-parent1,
+  .logo-parent2 {
+    margin-left: -11px;
+  }
+
+  .about3 .top-header {
+    width: 100%;
+  }
+
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+  .side-image-icon {
+    top: -75px;
+  }
+
+  .our-story-parent {
+    position: absolute;
+    top: 450px;
+    left: 5vw;
+    right: 5vw;
+    gap: var(--gap-21xl);
+    width: 100vw;
+  }
+
+  .launced-in-2015 {
+    width: 90vw;
+    position: relative;
+    line-height: 26px;
+    display: inline-block;
+    right: 5px;
+  }
+
+  .exclusive-has-more {
+    width: 90vw;
+    position: relative;
+    line-height: 26px;
+    display: inline-block;
+    right: 5px;
+
+  }
+
+  .frame-parent10 {
+    top: 960px;
+  }
+
+  .frame-parent11 {
+    left: 2vw;
+    top: 2000px;
+  }
+
+  .about3 .full-services {
+
+    position: relative;
+    top: 5430px;
+    margin-left: -200px;
+    margin-top: 1620px;
+    /* Add any other styles for the FullServices component here */
+  }
+  .about3 .footer {
+    bottom: 0;
+    width: 100vw;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 2250px;
+    height: 1450px;
+    margin-left: -10px;
+
+
+  }
+  .about3 {
+    height: 5880px;
+    padding: 10px;
+    /* Add padding to the container for better spacing on small screens */
+  }
+  .about3 .exclusive {
+    left: 0px;
+  }
+}
+
+@media (min-width:850px) and (max-width:992px) {
+  .our-story-parent{
+    left: 100px;
+    top: 150px;
+  }
+  .side-image-icon{
+    top: 195px;
+    height: 310px;
+    width: auto;
+    left: 550px;
+  }
+
+  .exclusive-has-more{
+    width: 460px;
+  }
+
+  .launced-in-2015{
+    width: 460px;
+  }
+
+  .frame-parent10{
+    top: 610px;
+    flex-wrap: wrap;
+    left: 200px;
+  }
+
+  .frame-parent11{
+    left: 10px;
+    gap: 5px;
+    margin-top: -220px;
+  }
+  .ellipse-container{
+    left: 45vw;
+    top: 1820px;
+  }
+  .about3 .full-services{
+    margin-top: -180px;
+  }
+  
+  
+}
+
+@media (min-width:993px) {
+  .roadmap{
+    margin-top: -180px;
+  }
+  .side-image-icon{
+    top: 100px;
+  }
+  .our-story-parent{
+    top: 120px;
+  }
+  .frame-parent10{
+    top: 800px;
+    gap: 50px;
+  }
+  .frame-parent11{
+    top: 1085px;
+    gap: 80px;
+  }
+  .full-services{
+    margin-left: 5vw;
+  }
+  .ellipse-container{
+    top: 1685px;
+  }
+  .full-services{
+    margin-left: -10vw;
+    margin-top:  -395px;
+  }
+  .about3 .footer{
+    width: 100vw;
+    margin-top: -480px;
+  }
+  .about3{
+    height: 2400px;
+  }
+
+}

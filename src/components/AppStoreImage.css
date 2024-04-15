@@ -1,0 +1,7 @@
+.appstore-icon {
+  width: 110px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 40px;
+  object-fit: cover;
+}

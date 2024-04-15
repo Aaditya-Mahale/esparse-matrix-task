@@ -1,0 +1,8 @@
+
+
+@media (min-width:850px) and (max-width:992px) {
+    .MyReview .footer{
+        margin-top: 50px;
+        width: 100vw;
+    }
+}

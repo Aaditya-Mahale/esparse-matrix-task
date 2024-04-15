@@ -1,0 +1,15 @@
+.stats2slider{
+    margin-left: 25px;
+    background-color: white;
+    border-radius: 2%;
+    padding: 10px;
+  margin-bottom: 10px;
+}
+.stats2slidertxt{
+    font-family: Roboto;
+font-size: 30px;
+font-weight: 700;
+line-height: 35.16px;
+text-align: left;
+
+}

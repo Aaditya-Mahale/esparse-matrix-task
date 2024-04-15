@@ -1,0 +1,14 @@
+.contact1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 24px;
+}
+.headercontact {
+  width: 66px;
+  height: 24px;
+  text-align: center;
+  font-size: var(--title-16px-regular-size);
+  color: var(--text2);
+  font-family: var(--title-16px-regular);
+}

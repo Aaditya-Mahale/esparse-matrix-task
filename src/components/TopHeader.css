@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"); /* Adjust as needed */
+
+.top-header {
+  width: 100vw;
+  background-color: var(--text2);
+  height: 48px;
+  overflow: hidden;
+  
+  font-size: var(--title-14px-regular-size);
+  color: var(--text);
+  font-family: var(--title-16px-regular);
+  display: flex;
+  
+  
+  justify-content: space-between; /* Use responsive alignment */
+}
+
+.frame-container {
+  position: absolute;
+  top: 12px;
+  right: 13px; /* Adjust spacing if needed */
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-212xl);
+}
+
+.summer-sale-for-all-swim-suits-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  padding-left: 1px;
+}
+
+.summer-sale-for {
+  flex: 1; /* Allow dynamic width across screens */
+  line-height: 21px;
+  font-size: var(--title-12px-regular-size); /* Smaller size for clarity */
+}
+
+.shopnow {
+  text-decoration: underline;
+  line-height: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.english {
+  line-height: 21px;
+  font-size: var(--title-12px-regular-size); /* Smaller size for clarity */
+}
+
+.dropdown-icon {
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+
+.english-parent,
+.frame-container {
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* Consider flex wrap for responsiveness */
+  gap: var(--gap-8xs);
+  padding-left: 0;
+}
+
+/* Media queries for smaller screens */
+
+@media (min-width: 320px){
+  .top-header {
+    flex-direction: column;
+    height: auto; /* Allow content to expand if needed */
+    
+  }
+
+  .frame-container {
+    
+    position: relative; /* Remove absolute positioning */
+    top: 0;
+    right: 0;
+    width: 100%;
+    justify-content: space-between; /* Responsive alignment */
+    height: auto;
+    
+  }
+
+  .summer-sale-for {
+    padding: 20px 20px 2px 20px;
+    flex-direction: column;
+    font-size: var(--title-10px-regular-size);
+  }
+
+  .english {
+    font-size: var(--title-10px-regular-size);
+    
+  }
+
+ 
+
+ 
+  .summer-sale-for {
+    font-size: var(--title-8px-regular-size);
+    
+  }
+
+  .english-parent {
+    gap: 0;
+    font-size: var(--title-8px-regular-size);
+    
+  }
+
+}
+
+@media (min-width: 321px) and (max-width: 767px) {
+  .top-header {
+    flex-direction: column;
+    height: auto; /* Allow content to expand if needed */
+    
+  }
+
+  .frame-container {
+    
+    position: relative; /* Remove absolute positioning */
+    top: 0;
+    right: 0;
+    width: 100%;
+    justify-content: space-between; /* Responsive alignment */
+    height: auto;
+    
+  }
+
+  .summer-sale-for {
+    padding: 20px 20px 2px 20px;
+    flex-direction: column;
+    font-size: var(--title-10px-regular-size);
+  }
+
+  .english {
+    font-size: var(--title-10px-regular-size);
+    
+  }
+
+ 
+
+ 
+  .summer-sale-for {
+    font-size: var(--title-8px-regular-size);
+    
+  }
+
+  .english-parent {
+    gap: 0;
+    font-size: var(--title-8px-regular-size);
+    
+  }
+}
+
+.shop-now {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+@media (min-width: 767px)  {
+  
+  .english-parent,
+.frame-container {
+  left: 142px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* Consider flex wrap for responsiveness */
+  gap: var(--gap-8xs);
+  padding-left: 0;
+}
+  
+}
+
+
+@media (min-width:850px) and (max-width:992px) {
+  .top-header{
+    width: 100vw;
+  }
+}

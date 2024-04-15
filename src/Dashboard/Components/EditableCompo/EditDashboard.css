@@ -1,0 +1,13 @@
+.graphcompo{
+    display: flex;
+}
+.statsdashboard{
+    display: flex;
+}
+.ColorSlider{
+    margin-left: 25px;
+}
+.EditDashboard{
+    background-color: coral;
+    height: auto;
+}

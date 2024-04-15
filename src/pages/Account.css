@@ -1,0 +1,231 @@
+.md-rimel {
+  color: var(--secondary-2);
+}
+.welcome-md-rimel-container {
+  position: absolute;
+  top: 222px;
+  left: 1166px;
+  font-size: var(--title-14px-regular-size);
+  line-height: 21px;
+}
+.manage-my-account,
+.my-orders,
+.my-wishlist {
+  position: absolute;
+  top: 323px;
+  left: 135px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.my-orders,
+.my-wishlist {
+  top: 475px;
+}
+.my-wishlist {
+  top: 587px;
+  display: inline-block;
+  width: 93px;
+  height: 23px;
+}
+.address-book,
+.my-profile {
+  position: relative;
+  line-height: 24px;
+}
+.my-profile {
+  color: var(--secondary-2);
+}
+.address-book {
+  opacity: 0.5;
+}
+.my-profile-parent,
+.my-returns-parent {
+  position: absolute;
+  top: 363px;
+  left: 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.my-returns-parent {
+  top: 515px;
+}
+.become-a-seller2 {
+  position: absolute;
+  top: 1417px;
+  left: 698px;
+  line-height: 24px;
+  color: var(--text);
+}
+.account2 {
+  width: 100%;
+  position: relative;
+  background-color: var(--primary);
+  height: 1533px;
+  text-align: left;
+  font-size: var(--title-16px-regular-size);
+  color: var(--text2);
+  font-family: var(--title-16px-regular);
+}
+
+
+@media (min-width: 321px) and (max-width: 767px) {
+
+  .edit-your-profile-parent{
+    top: 635px;
+    left: -30px;
+  }
+  .logo-parent3{
+    gap: 2px;
+  }
+
+  .header-parent2, .logo-parent3{
+    gap: 5px;
+  }
+
+
+}
+
+@media (min-width: 321px) and (max-width: 480px){
+ 
+  .edit-your-profile-parent{
+    top: 635px;
+    left: -30px;
+  }
+  .logo-parent3{
+    gap: 2px;
+  }
+
+  .header-parent2, .logo-parent3{
+    gap: 5px;
+  }
+  .welcome-md-rimel-container {
+    position: absolute;
+    top: 50px;
+    left: 90px;
+    font-size: var(--title-14px-regular-size);
+    line-height: 21px;
+  }
+  .manage-my-account{
+    top: 100px;
+    left: 80px;
+  }
+  .my-orders{
+    top: 280px;
+    left: 80px;
+  }
+  .my-wishlist{
+    left: 80px;
+    top: 375px;
+  }
+  .my-profile-parent{
+    left: 80px;
+    top: 150px;
+  }
+  .my-returns-parent{
+    top: 300px;
+    left: 80px;
+  }
+  .edit-your-profile-parent{
+    top: 460px;
+    height: 1000px;
+    left: -20px;
+  }
+  .edit-your-profile{
+    top: 5px;
+  }
+  .frame-parent47{
+    flex-direction: column;
+  }
+  .frame-parent48{
+    top: 300px;
+    flex-direction: column;
+  }
+  .frame-parent49{
+    top: 600px;
+  }
+.cancel-parent{
+  top: 850px;
+  left: 80px;
+
+}
+.buttonprimary-hoverno{
+  display: block;
+  width: 220px;
+}
+.placebox-info-input {
+  background-color:  #F5F5F5;
+  border: none;
+  width: 250px;
+}
+.account2 .footer {
+    
+    
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 310px;
+  height: 1150px;
+
+}
+}
+
+@media (min-width:850px) and (max-width:992px) {
+  .edit-your-profile-parent{
+    top: 635px;
+    left: -30px;
+  }
+  .logo-parent3{
+    gap: 2px;
+  }
+
+  .header-parent2, .logo-parent3{
+    gap: 5px;
+  }
+  .welcome-md-rimel-container {
+    position: absolute;
+    top: 50px;
+    left: 90px;
+    font-size: var(--title-14px-regular-size);
+    line-height: 21px;
+  }
+  .manage-my-account{
+    top: 100px;
+    left: 80px;
+  }
+  .my-orders{
+    top: 280px;
+    left: 80px;
+  }
+  .my-wishlist{
+    left: 80px;
+    top: 375px;
+  }
+  .my-profile-parent{
+    left: 80px;
+    top: 150px;
+  }
+  .my-returns-parent{
+    top: 300px;
+    left: 80px;
+  }
+  .edit-your-profile-parent{
+    top: 450px;
+    left: 50px;
+    height: 590px;
+  }
+  .cancel-parent{
+    left: 225px;
+  }
+  .buttonprimary-hoverno{
+    display: block;
+  }
+
+
+  
+}

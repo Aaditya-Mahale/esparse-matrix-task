@@ -1,0 +1,33 @@
+.view-all-products {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.buttonprimary-hoverno {
+  border-radius: var(--br-9xs);
+  background-color: var(--secondary-2);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-29xl);
+  text-align: left;
+  font-size: var(--title-16px-regular-size);
+  color: var(--text);
+  font-family: var(--title-16px-regular);
+  border: none;
+}
+
+@media (min-width: 321px) and (max-width: 767px) {
+
+  .buttonprimary-hoverno {
+   display: none;
+  }
+}
+
+@media(min-width:850px) and (max-width:992px) {
+
+  .buttonprimary-hoverno {
+    display: none;
+  }
+}

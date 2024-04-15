@@ -1,0 +1,10 @@
+
+.Sellerspage .footer{
+margin-top: -1085px;
+}
+
+@media (min-width:850px) and (max-width:992px) {
+    .Sellerspage .footer{
+        width: 100vw;
+        }
+}

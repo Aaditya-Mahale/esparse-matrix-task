@@ -1,0 +1,94 @@
+.t1  {
+   
+    font-family: Inter;
+    font-size: 110px;
+    font-weight: 500;
+    line-height: 115px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    margin-top: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.t2 {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.buttonh {
+    margin-left: 600px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+/* styles.css */
+.button-style {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    /* Add any other styles as needed */
+    width: 275px;
+    height: 56px;
+    top: 642px;
+    left: 572px;
+    padding: 16px 48px 16px 48px; /* top right bottom left */
+    border-radius: 4px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 321px) and (max-width: 480px){
+    .t1{
+margin-top: 25px;
+        font-size: 45px;
+        word-break: normal;
+    }
+    .t2{
+        margin-left: 35px;
+font-size: 35px;
+
+    }
+    .buttonh{
+        margin-left: 50px;
+    }
+
+    
+}
+
+@media (min-width:850px) and (max-width:992px) {
+  .t1{
+    margin-top: 10vh;
+    justify-content: none;
+    align-items: none;
+margin-bottom: 25px;
+  }
+.t2{
+    justify-content: none;
+    align-items: none;
+margin-bottom: 25px;
+}
+.buttonh{
+    margin-left: 350px;
+}
+  
+}

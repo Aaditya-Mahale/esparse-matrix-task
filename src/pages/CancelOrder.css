@@ -1,0 +1,20 @@
+.cancelordercont{
+    display: flex;
+    flex-direction: column;
+}
+.CancelOrder .footer{
+    margin-top: -4150px;
+}
+
+@media (max-width:768px) {
+    
+    .CancelOrder .footer{
+        margin-top: -3950px;
+    }
+}
+
+@media (min-width:850px) and (max-width:992px) {
+    .CancelOrder .footer{
+        width: 100vw;
+    }
+}

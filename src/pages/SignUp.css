@@ -1,0 +1,462 @@
+.dlbeatsnoop-1-icon1 {
+  position: absolute;
+  top: 75px;
+  left: -8px;
+  width: 919px;
+  height: 706px;
+  object-fit: cover;
+}
+.side-image1 {
+  width: 805px;
+  position: relative;
+  border-radius: 0 var(--br-9xs) var(--br-9xs) 0;
+  background-color: var(--color-powderblue);
+  height: 781px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.create-an-account {
+  position: relative;
+  letter-spacing: 0.04em;
+  line-height: 30px;
+  font-weight: 500;
+}
+.enter-your-details1 {
+  position: relative;
+  font-size: var(--title-16px-regular-size);
+  line-height: 24px;
+  font-family: var(--title-16px-regular);
+}
+.create-an-account-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.name {
+  position: relative;
+  line-height: 24px;
+  opacity: 0.4;
+}
+.frame-parent20,
+.name-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frame-parent20 {
+  gap: var(--gap-21xl);
+}
+.already-have-account,
+.log-in1 {
+  position: relative;
+  line-height: 24px;
+  opacity: 0.7;
+}
+.log-in1 {
+  font-weight: 500;
+  cursor: pointer;
+}
+.underline-icon3 {
+  width: 47px;
+  position: relative;
+  max-height: 100%;
+  opacity: 0.5;
+}
+.log-in-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.already-have-account-parent,
+.google-sign-up-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.google-sign-up-parent {
+  flex-direction: column;
+  gap: var(--gap-13xl);
+}
+.button-parent {
+  align-items: flex-start;
+  gap: var(--gap-base);
+}
+.button-parent,
+.frame-parent18,
+.frame-parent19,
+.side-image-group {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frame-parent19 {
+  align-items: center;
+  gap: var(--gap-21xl);
+  font-size: var(--title-16px-regular-size);
+  font-family: var(--title-16px-regular);
+}
+.frame-parent18,
+.side-image-group {
+  align-items: flex-start;
+  gap: var(--gap-29xl);
+}
+.side-image-group {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-110xl);
+}
+.become-a-seller4 {
+  position: absolute;
+  top: 1437px;
+  left: 691px;
+  font-size: var(--title-16px-regular-size);
+  line-height: 24px;
+  font-family: var(--title-16px-regular);
+  color: var(--text);
+}
+.sign-up3 {
+  width: 100%;
+  position: relative;
+  background-color: var(--primary);
+  height: 1561px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--heading-36px-semibold-size);
+  color: var(--text2);
+  font-family: var(--heading-24px-semibold);
+}
+.name-input{
+  border: none;
+  border-bottom: 1px solid #333;
+  width: 370px;
+}
+
+
+
+@media (min-width: 321px) and (max-width: 767px) {
+.side-image-group {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-110xl);
+}
+
+
+.side-image1 {
+  width: 90vw;
+  position: relative;
+  border-radius: 0 var(--br-9xs) var(--br-9xs) 0;
+  background-color: var(--color-powderblue);
+  height: 363px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.dlbeatsnoop-1-icon1 {
+  position: absolute;
+  top: 75px;
+  left: 95px;
+  width: 312px;
+  height: 281px;
+  object-fit: cover;
+}
+
+.side-image-group {
+  align-items: flex-start;
+  gap: var(--gap-29xl);
+  margin-left: 20px;
+  margin-right: 2px;
+}
+
+.sign-up3 {
+  width: 100%;
+  position: relative;
+  background-color: var(--primary);
+  height: 2303px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--heading-36px-semibold-size);
+  color: var(--text2);
+  font-family: var(--heading-24px-semibold);
+}
+
+.sign-up3 .footer {
+    
+  
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+  height: 1450px;
+
+}
+}
+
+@media (max-width: 320px){
+  .side-image-group {
+    position: absolute;
+    top: auto;
+    left: 0;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--gap-110xl);
+  }
+  
+  
+  .side-image1 {
+    width: 90vw;
+    position: relative;
+    border-radius: 0 var(--br-9xs) var(--br-9xs) 0;
+    background-color: var(--color-powderblue);
+    height: 363px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  
+  .dlbeatsnoop-1-icon1 {
+    position: absolute;
+    top: 75px;
+    left: 95px;
+    width: 312px;
+    height: 281px;
+    object-fit: cover;
+  }
+  
+  .side-image-group {
+    align-items: flex-start;
+    gap: var(--gap-29xl);
+    margin-left: 20px;
+    margin-right: 2px;
+  }
+  
+  .sign-up3 {
+    width: 100%;
+    position: relative;
+    background-color: var(--primary);
+    height: 2303px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--heading-36px-semibold-size);
+    color: var(--text2);
+    font-family: var(--heading-24px-semibold);
+  }
+  
+  .sign-up3 .footer {
+      
+    
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    height: 1450px;
+  
+  }
+}
+
+@media (min-width: 321px) and (max-width: 480px){
+  .create-an-account{
+    letter-spacing: normal;
+  }
+  .sign-up3 .buttonprimary-hoverno{
+    width: 250px;
+    font-size: 18px !important;
+    padding-top: 25px !important;
+    padding-left: 60px !important;
+    padding-right: 0px !important;
+    padding-bottom: 25px !important;
+  }
+
+  .frame-parent20{
+    margin-left: 0px;
+  }
+
+  .enter-your-details1{
+    margin-left: 3px;
+  }
+
+  .google-sign-up{
+    padding: 25px;
+  }
+
+  .side-image-group {
+    
+    position: absolute;
+    top: 15px;
+    left: 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--gap-110xl);
+  }
+  
+  
+  .side-image1 {
+
+    width: 90vw;
+    position: relative;
+    border-radius: 0 var(--br-9xs) var(--br-9xs) 0;
+    background-color: var(--color-powderblue);
+    height: 363px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  
+  .dlbeatsnoop-1-icon1 {
+    position: absolute;
+    top: auto;
+    left: auto;
+    width: auto;
+    height: 360px;
+    object-fit: cover;
+  }
+  
+  .side-image-group {
+    align-items: flex-start;
+    gap: var(--gap-29xl);
+    margin-left: 20px;
+    margin-right: 2px;
+  }
+  
+  .sign-up3 {
+    width: 100%;
+    position: relative;
+    background-color: var(--primary);
+    height: 2303px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--heading-36px-semibold-size);
+    color: var(--text2);
+    font-family: var(--heading-24px-semibold);
+  }
+  
+  .sign-up3 .footer {
+      
+    
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    height: 1450px;
+  
+  }
+
+}
+
+@media (min-width: 480px) and (max-width: 768px){
+  .side-image-group {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--gap-110xl);
+  }
+  
+  
+  .side-image1 {
+    width: 90vw;
+    position: relative;
+    border-radius: 0 var(--br-9xs) var(--br-9xs) 0;
+    background-color: var(--color-powderblue);
+    height: 363px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  
+  .dlbeatsnoop-1-icon1 {
+    position: absolute;
+    top: 75px;
+    left: 95px;
+    width: 312px;
+    height: 281px;
+    object-fit: cover;
+  }
+  
+  .side-image-group {
+    align-items: flex-start;
+    gap: var(--gap-29xl);
+    margin-left: 20px;
+    margin-right: 2px;
+  }
+  
+  .sign-up3 {
+    width: 100%;
+    position: relative;
+    background-color: var(--primary);
+    height: 2303px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--heading-36px-semibold-size);
+    color: var(--text2);
+    font-family: var(--heading-24px-semibold);
+  }
+  
+  .sign-up3 .footer {
+      
+    
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    height: 1450px;
+  
+  } 
+}
+
+@media (min-width:850px) and (max-width:992px) {
+
+  .side-image-group{
+    top: 100px;
+    gap: 50px;
+    left: 25px;
+  }
+  .side-image1{
+    width: 500px;
+  }
+  .dlbeatsnoop-1-icon1{
+    height: 490px;
+    width: 620px;
+    top: 80px;
+  }
+}
+
+@media (min-width:993px) {
+  .side-image-group{
+    top: 50px;
+  }
+  .sign-up3 .buttonprimary-hoverno{
+    margin-top: 0px;
+  }
+  .sign-up3 .footer{
+    width: 100vw;
+    margin-top: -250px;
+  }
+  .sign-up3 {
+    height: 1310px;
+  }
+}

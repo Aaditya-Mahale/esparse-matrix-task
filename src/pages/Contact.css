@@ -1,0 +1,151 @@
+.frame-parent9,
+.placebox-info-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+
+.frame-parent9 {
+  position: absolute;
+  top: 40px;
+  left: 31px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-13xl);
+}
+
+.contact-inner {
+  position: absolute;
+  top: 323px;
+  left: 505px;
+  border-radius: var(--br-9xs);
+  box-shadow: var(--categogy-5);
+  width: 800px;
+  height: 457px;
+}
+
+.contact-child,
+.contact-inner,
+.contact3 {
+  background-color: var(--primary);
+  overflow: hidden;
+}
+
+.contact-child {
+  position: absolute;
+  top: 323px;
+  left: 135px;
+  border-radius: var(--br-9xs);
+  box-shadow: var(--categogy-5);
+  width: 340px;
+  height: 457px;
+}
+
+.contact3 {
+  width: 100%;
+  position: relative;
+  height: 1360px;
+}
+
+
+@media (min-width: 321px) and (max-width: 767px) {
+  .contact3 {
+    width: 100%;
+    position: relative;
+    height: 2470px;
+  }
+
+  .contact3 .roadmap {
+    margin-left: -124px;
+  }
+
+  .contact-child {
+    left: 52px;
+  }
+  .contact-inner{
+    left: 47px;
+    top: 808px;
+  }
+  .frame-parent9, .placebox-info-parent{
+    flex-direction: column;
+    align-items: normal;
+
+  }
+  .contact3 .place-to-info-box{
+    width: 232px;
+  }
+
+  .contact3 .footer{
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 388px;
+    height: 1450px;
+  
+  }
+  
+}
+
+@media (min-width: 321px) and (max-width: 480px){
+
+
+.contact-child {
+  left: 25px;
+  top: 84px;
+}
+.contact-inner{
+  left: 25px;
+  top: 560px;
+  height: 600px;
+  width: 340px;
+}
+.contact .place-to-info-box{
+  width: 23px;
+}
+
+.buttonprimary-hoverno{
+  width: 290px;
+}
+
+}
+
+@media (min-width:850px) and (max-width:992px) {
+  .contact-child{
+    top: 154px;
+    left: 20px;
+    
+  }
+  .contact-inner{
+    top: 154px;
+    left: 410px;
+   height: 580px;
+    width: 550px;
+  }
+  .frame-parent9, .placebox-info-parent{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .contact3 .contact-inner .placebox-info{
+    width: 5px;
+  }
+}
+
+@media (min-width:993px) {
+  .contact-child{
+    top: 120px;
+  }
+  .contact-inner{
+    top: 120px;
+  }
+  .contact3 .footer{
+   margin-top:  -260px;
+  }
+  .contact3{
+    height: 1100px;
+  }
+}

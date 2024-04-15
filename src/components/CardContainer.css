@@ -1,0 +1,47 @@
+.jr-zoom-soccer {
+  position: relative;
+  line-height: 24px;
+  font-weight: 500;
+}
+.wrapper5 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div44 {
+  width: 32px;
+  position: relative;
+  line-height: 21px;
+  font-weight: 600;
+  display: inline-block;
+  height: 20px;
+  flex-shrink: 0;
+  opacity: 0.5;
+}
+.five-star-parent4,
+.frame-parent30,
+.jr-zoom-soccer-cleats-parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.five-star-parent4 {
+  align-items: flex-start;
+  font-size: var(--title-14px-regular-size);
+  color: var(--text2);
+}
+.frame-parent30,
+.jr-zoom-soccer-cleats-parent {
+  align-items: center;
+  color: var(--secondary-2);
+}
+.jr-zoom-soccer-cleats-parent {
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  font-size: var(--title-16px-regular-size);
+  color: var(--text2);
+  font-family: var(--title-16px-regular);
+}

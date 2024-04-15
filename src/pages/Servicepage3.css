@@ -1,0 +1,38 @@
+.Servicepage3 .hero-endframe-cvklg0xk3w6e-la-parent{
+    margin-bottom: 25px;
+    margin-top: 65px;
+}
+
+.ServicePage3 .footer{
+    margin-top: -1125px;
+}
+
+
+@media (min-width: 321px) and (max-width: 480px){
+    .ServicePage3 .hero-endframe-cvklg0xk3w6e-la-parent{
+        position: relative;
+        width: 90vw;
+        margin-bottom: 0;
+        margin-top: 9px;
+    } 
+    .ServicePage3 .footer{
+        margin-top: -1130px;
+        width: 100vw;
+   }
+   .ServicePage3{
+    overflow-x: hidden;
+   }
+}
+
+@media (min-width:850px) and (max-width:992px) {
+    .ServicePage3 .hero-endframe-cvklg0xk3w6e-la-parent{
+        margin-bottom: 25px;
+        margin-top: -375px;
+        width: 100vw;
+    } 
+    .ServicePage3 .footer{
+        width: 100vw;
+        margin-top: -800px;
+       
+    }
+}

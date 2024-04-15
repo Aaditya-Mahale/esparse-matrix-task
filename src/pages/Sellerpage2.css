@@ -1,0 +1,13 @@
+
+@media (min-width: 321px) and (max-width: 480px){
+.SellerPage2 .footer{
+margin-top: -1130px;
+}
+}
+
+@media (min-width:850px) and (max-width:992px) {
+    .SellerPage2 .footer{
+        width: 100vw;
+        margin-top: -1100px;
+        }
+}

@@ -1,0 +1,7 @@
+.qr-code-icon {
+  width: 80px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 80px;
+  object-fit: cover;
+}

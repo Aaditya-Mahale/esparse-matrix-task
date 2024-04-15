@@ -1,0 +1,29 @@
+.full-services {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-69xl);
+}
+
+@media (min-width: 321px) and (max-width: 767px) {
+.full-services {
+  left: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  justify-content: center;
+  gap: var(--gap-69xl);
+}
+}
+
+@media(min-width:850px) and (max-width:992px) {
+  .full-services{
+    margin-left: -210px;
+  }
+  
+}
+@media (min-width:993px) {
+  
+}

@@ -1,0 +1,396 @@
+.carthead {
+  margin-left: 195px;
+  display: flex;
+  margin-top: 5cm;
+  width: 1091px;
+  height: 24px;
+  gap: 280px;
+  margin-bottom: 25px;
+}
+
+/* styles.module.css */
+
+/* Cart.css */
+
+.heading h4 {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/* Cart.css */
+
+.lcd-monitor {
+  /* Apply your styles here */
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.product1 {
+  margin-left: 135px;
+  display: flex;
+  margin-top: 5cm;
+  width: 1091px;
+  height: 24px;
+  gap: 284px;
+  margin-bottom: 25px;
+  padding-right: 170px;
+}
+
+.product{
+  display: flex;
+}
+
+.product1 {
+  gap: 284px;
+  display: flex;
+  align-items: center;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+}
+
+.product-image {
+  width: 50px; /* Adjust width as needed */
+  height: auto;
+  margin-right: 10px; /* Adjust margin as needed */
+}
+
+.product h4 {
+  margin: 0; /* Remove default margin */
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-right: 0px;
+  
+}
+
+.product1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Spread the items evenly */
+  margin-bottom: 10px; /* Adjust the bottom margin as needed */
+}
+
+.product {margin-right: 150px;
+  display: flex;
+  align-items: center;
+  margin-right: 0px; /* Adjust the right margin as needed */
+}
+
+.product-image {
+  width: 50px; /* Adjust width as needed */
+  height: auto;
+  margin-right: 5px; /* Adjust the right margin as needed */
+}
+
+.product h4 {
+  margin: 0; /* Remove default margin */
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/* Cart.css */
+
+.product1 {
+  display: flex;
+  align-items: center;
+  gap: 25px;/* Spread the items evenly */
+  margin-bottom: 10px; /* Adjust the bottom margin as needed */
+}
+
+.product {
+  display: flex;
+  align-items: center;
+}
+
+.product-image {
+  width: 50px; /* Adjust width as needed */
+  height: auto;
+  margin-right: 15px; /* Adjust the right margin between image and text */
+}
+
+.product h4 {
+  margin-left: -40px;
+  margin: 0; /* Remove default margin */
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-right: 10px; /* Adjust the right margin between text and next element */
+}
+
+/* Adjust specific margins or paddings as needed */
+.product img {
+  margin-right: 15px; /* Adjust margin as needed between images */
+}
+
+.product h4:last-child {
+  margin-right: 0; /* Remove right margin for the last h4 element */
+}
+
+/* YourComponent.css */
+
+.buttondiv {
+  margin-top: 60px;
+  margin-left: 145px;
+  display: flex;
+  width: fit-content; /* Hug (1,170px) */
+  height: fit-content; /* Hug (56px) */
+  gap: 757px;
+}
+
+.button {
+  background-color: white;
+  width: 218px; /* Hug (218px) */
+  height: fit-content; /* Hug (56px) */
+  padding: 16px 4px 16px 48px; /* Padding: 16px, 48px, 16px, 48px */
+  border-radius: 4px;
+  border: 1px solid; /* Adjust border style as needed */
+  /* Add any other button styles here */
+  border: 1px solid #00000080;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+/* YourComponent.css */
+
+/* YourComponent.css */
+
+
+.down{
+  margin-top: 30px;
+  display: flex;
+}
+
+.textbox {
+  margin-left: 145px;
+  width: 300px;
+  height: 25px;
+  padding: 16px 16px 16px 24px; /* Padding: 16px, 164px, 16px, 24px */
+  border-radius: 4px;
+  border: 1px solid; /* Adjust border style as needed */
+  font-size: 14px; /* Adjust font size as needed */
+  /* Add any other textbox styles here */
+}
+
+/* YourComponent.css */
+
+.buttondown {
+  color: white;
+  margin-left: 5px;
+  width: fit-content; /* Hug (211px) */
+  height: 56px; /* Hug (56px) */
+  padding: 16px 48px; /* Padding: 16px, 48px, 16px, 48px */
+  border-radius: 4px;
+  gap: 10px;
+  font-size: 14px; /* Adjust font size as needed */
+  cursor: pointer;
+  background-color:  #DB4444;
+
+  border: none;
+  /* Add any other button styles here */
+}
+
+/* YourComponent.css */
+
+/* YourComponent.css */
+
+.carttotal p {
+  margin-left:  275px; /* Remove default margin */
+}
+
+.carttotal .cart-total {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.carttotal .subtotal {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.carttotal .shipping,
+.carttotal .total {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  /* Styles for Shipping and Total, if needed */
+}
+
+.buttondown2{
+  margin-left: 325px;
+  border: none;
+  width: fit-content; /* Hug (260px) */
+  height: 56px; /* Hug (56px) */
+  top: 236px;
+  left: 89px;
+  padding: 16px 48px; /* Padding: 16px, 48px, 16px, 48px */
+  border-radius: 4px;
+  gap: 10px;
+  font-size: 16px; /* Adjust font size as needed */
+  cursor: pointer;
+  color: white;
+  background-color: #DB4444;
+  text-decoration: none;
+}
+.buttondown3{
+  margin-left: 325px;
+  border: none;
+  width: fit-content; /* Hug (260px) */
+  height: 56px; /* Hug (56px) */
+  top: 236px;
+  left: 89px;
+  padding: 16px 48px; /* Padding: 16px, 48px, 16px, 48px */
+  border-radius: 4px;
+  gap: 10px;
+  font-size: 16px; /* Adjust font size as needed */
+  cursor: pointer;
+  color: white;
+  background-color: #DB4444;
+  text-decoration: none;
+}
+
+/* YourComponent.css */
+
+.subtotal {
+  margin-bottom: 10px; /* Optional: Add some space below the subtotal */
+}
+.shipping {
+  margin-bottom: 10px; /* Optional: Add some space below the subtotal */
+}
+.total {
+  margin-bottom: 15px; /* Optional: Add some space below the subtotal */
+}
+
+ .amount {
+  margin-left: 50px; /* Adjust the margin-left value to add space between Subtotal: and $650 */
+  /* Add any other styling for the amount here */
+}
+
+.amount1 {
+  margin-left: 50px; /* Adjust the margin-left value to add space between Subtotal: and $650 */
+  /* Add any other styling for the amount here */
+}
+.amount2 {
+  margin-left: 80px; /* Adjust the margin-left value to add space between Subtotal: and $650 */
+  /* Add any other styling for the amount here */
+}
+
+@media (min-width: 321px) and (max-width: 767px) {
+.carthead {
+  margin-left: 3px;
+  display: flex;
+  margin-top: 5cm;
+  width: 1091px;
+  height: 24px;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+
+.product1 {
+  margin-left: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Spread the items evenly */
+  margin-bottom: 10px; /* Adjust the bottom margin as needed */
+  
+}
+
+
+.product {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.buttondiv {
+  margin-top: 60px;
+  margin-left: 3px;
+  display: flex;
+  width: fit-content; /* Hug (1,170px) */
+  height: fit-content; /* Hug (56px) */
+  gap: 2px;
+}
+
+.button{
+  width: 180px;
+  padding: auto;
+}
+
+.down{
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.textbox{
+  margin-left: 0px;
+  width: 50vw;
+}
+.carttotal{
+  flex-wrap: wrap;
+  margin-left: -260px;
+}
+.buttondown2{
+  margin-left: 265px;
+}
+
+
+.cart {
+ 
+  padding: 10px; /* Add padding to the container for better spacing on small screens */
+}
+
+}
+
+@media (min-width:850px) and (max-width:992px) {
+  .carttotal{
+    height: 200px;
+    width: 570px;
+    margin-right: 0;
+    margin-left: -135px;
+  }
+  .buttondown3{
+    width: 200px;
+  }
+  .input-div{
+    width: 440px;
+  }
+  
+  .buttondown3{
+    margin-left: 250px;
+  }
+}

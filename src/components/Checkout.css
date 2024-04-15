@@ -1,0 +1,295 @@
+/* YourComponent.css */
+
+.roadm-text {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 50px;
+  }
+  
+
+
+/* YourComponent.css */
+
+.billingdet-text {
+    margin-left: 50px;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-align: left;
+   /* Add your desired margin-top value */
+  }
+  
+  .billingdet{
+    margin-top: 50px;
+  }
+
+  /* YourComponent.css */
+
+/* YourComponent.css */
+
+.custinfo {
+    margin-left: 50px;
+    margin-top: 50PX;
+    display: flex;
+    flex-direction: column;
+    width: 320px; /* Adjust the width as needed */
+  }
+  
+  .input-container {
+    padding-right: 60px;
+    margin-bottom: 20px; /* Adjust the margin between input containers as needed */
+  }
+  
+  .label {
+    font-weight: bold;
+    margin-right: 60px;
+    
+  }
+  .custinfo .input-container label {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .input-container input[type="text"] {
+    width: 470px;
+    height: 50px;
+    border-radius: 4px;
+    background-color:  #F5F5F5;
+    border: none;
+    outline: none;
+    ;
+  }
+
+  .checkb{
+    margin-left: 50px;
+  }
+
+  /* Checkout.css */
+
+  
+  .input[type="checkbox"]:checked {
+    background-color: #DB4444; /* Set background color for checked state */
+  }
+
+  .checkb label {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .cartp{
+    display: flex;
+    margin-left: 840px;
+    margin-top: -600px;
+  }
+  .cartp1{
+    display: flex;
+    margin-left: 840px;
+    margin-top: 40px;
+  }
+  .inline-textss {
+    display: inline-block; /* Make the text display inline-block */
+    margin-left: 10px; /* Optional: Add spacing between image and text */
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: inline-block; /* Make the text display inline-block */
+    margin-left: 10px; /* Optional: Add spacing between image and text */
+  }
+  .pricet{
+    margin-left: 45px;
+  }
+  .pricet1{
+    margin-left: 35px;
+  }
+  .summary-container{
+margin-top: 75px;
+margin-left: -250px;
+  }
+
+  .subtotal-value{
+    margin-left: 138px;
+    margin-bottom: 5px;
+  }
+  .shipping-value{
+    margin-left: 138px;
+  }
+  .total-value{
+    margin-left: 162px;
+  }
+  .summary-container span {
+    display: inline-block; /* Allow side-by-side positioning */
+    margin-bottom: 5px; /* Add margin-bottom for spacing */
+  }
+  .cardb{
+display: flex ;
+
+  }
+  .card-pay{
+    margin-top: 200px;
+    margin-left: -260px;
+  }
+ .cardb .ms-2{
+    margin-left: 10px !important;
+  }
+
+  .form-check-input[type=radio]{
+border-color: black;
+  }
+  .bankl{
+    margin-left: 10px;
+  }
+  .input-boxche{
+    margin-left: -260px;
+    margin-top: 280px;
+  }
+  
+  .checkboxt{
+    background-color: #DB4444;
+  }
+  .checkoutpage{
+    margin-left: 50px;
+  }
+
+  @media (min-width: 321px) and (max-width: 480px){
+    .checkoutpage{
+      touch-action: manipulation;
+ 
+    }
+    .roadm-text{
+      margin-left: -40px;
+    }
+    .billingdet-text{
+      margin-left: -25px;
+    }
+    .custinfo{
+      margin-left: -25px;
+    }
+    .checkoutpage .input-container input[type="text"]{
+      width: 300px;
+    }
+    .checkb label{
+      margin-left: -75px;
+      width: 320px;
+    }
+    .cartp{
+      margin-top: 100px;
+      margin-left: 0px;
+    }
+    .cartp1{
+      width: 310px;
+      margin-top: 30px;
+      margin-left: 0px;
+    }
+    .pr2{
+      width: 370px;
+    }
+    .card-pay{
+      margin-left: -210px;
+    }
+
+   .cartp1 #coupcart{
+      margin-top: 60px;
+    }
+    .subtotal-value{
+      margin-left: 8px;
+    }
+    .shipping-value{
+      margin-left: 8px;
+    }
+    .total-value{
+      margin-left: 35px;
+    }
+    .summary-container{
+      width: 200px;
+    }
+    .input-boxche{
+      width: 90vw;
+    }
+    .cartcheckout .footer {
+  
+  
+      bottom: 0;
+      width: 100%;
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      margin-top: 750px;
+      height: 1450px;
+    
+    }
+    .buttocartc {
+      margin-top: 20px;
+      width: 300px !important; 
+  }
+  .buttoncartc1{
+    width: 300px !important; 
+  }
+    
+  }
+
+  @media (min-width:850px) and (max-width:992px) {
+    .checkoutpage{
+      margin-left: -20px;
+    }
+    .input-container input[type="text"]{
+      width: 380px;
+    }
+    .cartp{
+       margin-left: 535px;
+    }
+    .pr2{
+      margin-left: -155px;
+    }
+    .cartp1{
+      width: 275px;
+      margin-left: 695px;
+    }
+    .input-boxche{
+      margin-left: -335px;
+    }
+    .buttocartc {
+      width: 160px;
+  }
+  .cartcheckout .footer {
+  
+  
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 0px;
+    height: 400px;
+  
+  }
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  

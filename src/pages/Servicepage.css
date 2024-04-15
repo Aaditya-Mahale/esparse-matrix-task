@@ -1,0 +1,75 @@
+.MusicExperienceEnhancerContain{
+    margin-top: 25px;
+}
+.ServicePage .ellipse-parent2{
+    margin-top: -795px;
+}
+
+.ServicePage .frame-parent34{
+    margin-top: -1995px;
+}
+.ServicePage .footer{
+    margin-top: 225px;
+}
+
+.ServicePage .hero-endframe-cvklg0xk3w6e-la-parent{
+    margin-bottom: 25px;
+}
+.h4{
+    text-decoration: none;
+}
+@media (min-width: 321px) and (max-width: 480px){
+    .ServicePage .hero-endframe-cvklg0xk3w6e-la-parent{
+        margin-bottom: 25px;
+        margin-top: -140px;
+    }
+    .ServicePage .ellipse-parent2{
+        margin-top: 2535px;
+    }
+    .ServicePage .frame-parent34{
+        margin-top: 765px;
+    }
+    .ServicePage .buttonprimary-hoverno{
+        display: none;
+    }
+    .ServicePage .footer{
+        margin-top: 1170px;
+        height: 1160px;
+    }
+
+}
+
+@media (min-width:850px) and (max-width:992px) {
+    .ServicePage .hero-endframe-cvklg0xk3w6e-la-parent{
+        margin-top: -400px;
+        width: 100vw;
+    }
+    .ServicePage .ellipse-parent2{
+        margin-top: -125px;
+    }
+    .ServicePage .frame-parent34{
+        margin-top: -1150px;
+    }
+    .ServicePage .footer{
+        margin-top: 225px;
+        width: 100vw;
+    }
+}
+
+@media (min-width:993px) {
+   
+    .ServicePage .ellipse-parent2{
+        margin-top: -100px;
+    }
+    .ServicePage .frame-parent34{
+        margin-top: -1175px;
+    }
+    .ServicePage .hero-endframe-cvklg0xk3w6e-la-parent{
+        margin-top: 60px;
+    }
+    .ServicePage .footer{
+        margin-top: 380px;
+        width: 100vw;
+    }
+    
+}

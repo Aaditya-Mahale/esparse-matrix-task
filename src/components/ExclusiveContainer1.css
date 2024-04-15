@@ -1,0 +1,78 @@
+.home2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 24px;
+}
+.header11,
+.header12 {
+  width: 48px;
+  position: relative;
+  height: 24px;
+}
+.header12 {
+  width: 61px;
+}
+.header-parent1,
+.logo-parent2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+}
+.logo-parent2 {
+  gap: var(--gap-141xl);
+}
+.wishlist-icon3 {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.cart1-with-buy3,
+.wishlist-icon3 {
+  width: 32px;
+  position: relative;
+  height: 32px;
+}
+.header10,
+.search-component-set-parent1,
+.wishlist-parent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.header10,
+.search-component-set-parent1 {
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.header10 {
+  position: absolute;
+  top: 88px;
+  left: 135px;
+  gap: var(--gap-111xl);
+  text-align: center;
+  font-size: var(--title-16px-regular-size);
+  color: var(--text2);
+  font-family: var(--title-16px-regular);
+}
+
+
+@media (min-width: 321px) and (max-width: 767px) {
+.logo-parent2 {
+  gap: 3px;
+}
+.header-parent1,
+.logo-parent2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+
+
+}

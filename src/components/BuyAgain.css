@@ -1,0 +1,126 @@
+.textbuyag {
+  display: flex;
+  gap: 71%;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  height: 25px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+.textbuy {
+  font-family: Inter;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  text-align: left;
+}
+.buyagainbutton {
+  width: 159px;
+  height: 56px;
+  top: 310px; /* Not applicable here, remove or adjust for specific placement */
+  color: white;
+  background: rgba(219, 68, 68, 1);
+  border: none;
+  gap: 10px; /* Not applicable to buttons, remove */
+  border-radius: 4px 0px 0px 0px;
+  padding: auto;
+  
+}
+.buyagainimgs {
+    display: flex;
+    gap: 60px;
+  background: rgba(245, 245, 245, 1);
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-right: auto;
+  height: auto;
+  margin-bottom: 50px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+}
+.buyagainimgs .img{
+    background: rgba(255, 255, 255, 1);
+    width: 150px;
+    height: 150px;
+    margin-left: 35px;
+    opacity: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#imgbuyagord1{
+    background-color: white;
+}
+
+
+@media (max-width:786px) {
+    .buyagainimgs {
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+        gap: 10px;
+    }
+    .buyagainimgs .img{
+        background: rgba(255, 255, 255, 1);
+        width: 50px;
+        height: 50px;
+        margin-left: 35px;
+        opacity: 0px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .textbuyag{
+        gap: unset;
+    }
+    .textbuy {
+        font-family: Inter;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0.04em;
+        text-align: left;
+      }
+      .buyagainbutton {
+        width: 159px;
+        height: 56px;
+        top: 310px; /* Not applicable here, remove or adjust for specific placement */
+        color: white;
+        background: rgba(219, 68, 68, 1);
+        border: none;
+        gap: 10px; /* Not applicable to buttons, remove */
+        border-radius: 4px 0px 0px 0px;
+        padding: auto;
+        
+      }
+}
+@media (min-width:850px) and (max-width:992px) {
+    .buyagainimgs {
+       width: auto;
+        padding-left: 40px;
+        padding-right: 20px;
+        gap: 20px;
+    }
+    .buyagainimgs .img{
+        background: rgba(255, 255, 255, 1);
+        width: 50px;
+        height: 50px;
+        margin-left: 35px;
+        opacity: 0px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .textbuyag {
+        display: flex;
+        gap: 50%;
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+        height: 25px;
+        margin-bottom: 25px;
+        margin-top: 25px;
+      }
+}

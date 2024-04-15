@@ -1,0 +1,31 @@
+.icons{
+    flex-direction: row;
+}
+.form-control{
+    width: 340px;
+}
+.custom-dropdown::after {
+  display: none;
+}
+.dropdown-toggle::after{
+  display: none;
+}
+.ms-2{
+  margin-left: -0.2rem !important;
+}
+.dropdown-item {  /* Target .dropdown-item or your custom class */
+  color: white;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  background-color: #0b0c0ba6; /* Base color */
+background-color: solid;
+ 
+}
+
+@media (min-width: 850px) and (max-width: 992px) {
+    .custom-media-class {
+      /* Add your styles for the specified screen width range */
+      /* For example, set the width to 80% */
+      width: 100vw;
+    }
+  }
